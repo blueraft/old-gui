@@ -1,0 +1,310 @@
+{
+  "afa783d98e040c74b68e5cfd3d82f3f0": [
+    {
+      "request": {
+        "url": "http://localhost:8000/fairdi/nomad/latest/api/v1/entries/query",
+        "method": "POST",
+        "body": {
+          "owner": "visible",
+          "query": {},
+          "aggregations": {
+            "results.material.elements:default": {
+              "terms": {
+                "exclude_from_search": false,
+                "update": true,
+                "size": 119,
+                "type": "terms",
+                "changed": true,
+                "quantity": "results.material.elements"
+              }
+            }
+          },
+          "pagination": {
+            "page_size": 0
+          },
+          "required": {
+            "include": []
+          }
+        },
+        "headers": {
+          "accept": "application/json, text/plain, */*",
+          "content-type": "application/json",
+          "cookie": null
+        }
+      },
+      "response": {
+        "status": 200,
+        "body": {
+          "owner": "visible",
+          "query": {},
+          "pagination": {
+            "page_size": 0,
+            "order_by": "entry_id",
+            "order": "asc",
+            "total": 4
+          },
+          "required": {
+            "include": [
+              "entry_id"
+            ]
+          },
+          "aggregations": {
+            "results.material.elements:default": {
+              "terms": {
+                "quantity": "results.material.elements",
+                "exclude_from_search": false,
+                "metrics": [],
+                "size": 119,
+                "data": [
+                  {
+                    "count": 3,
+                    "nested_count": 3,
+                    "value": "C"
+                  },
+                  {
+                    "count": 2,
+                    "nested_count": 2,
+                    "value": "H"
+                  },
+                  {
+                    "count": 1,
+                    "nested_count": 1,
+                    "value": "Hf"
+                  },
+                  {
+                    "count": 1,
+                    "nested_count": 1,
+                    "value": "I"
+                  },
+                  {
+                    "count": 1,
+                    "nested_count": 1,
+                    "value": "N"
+                  },
+                  {
+                    "count": 1,
+                    "nested_count": 1,
+                    "value": "Nb"
+                  },
+                  {
+                    "count": 1,
+                    "nested_count": 1,
+                    "value": "Pb"
+                  },
+                  {
+                    "count": 1,
+                    "nested_count": 1,
+                    "value": "Ta"
+                  },
+                  {
+                    "count": 1,
+                    "nested_count": 1,
+                    "value": "Ti"
+                  },
+                  {
+                    "count": 1,
+                    "nested_count": 1,
+                    "value": "Zr"
+                  }
+                ]
+              }
+            }
+          },
+          "data": []
+        },
+        "headers": {
+          "connection": "close",
+          "content-length": "1533",
+          "content-type": "application/json",
+          "server": "uvicorn"
+        }
+      }
+    },
+    {
+      "request": {
+        "url": "http://localhost:8000/fairdi/nomad/latest/api/v1/entries/query",
+        "method": "POST",
+        "body": {
+          "owner": "visible",
+          "query": {
+            "results.material.elements:all": [
+              "C"
+            ]
+          },
+          "aggregations": {
+            "results.material.elements:default": {
+              "terms": {
+                "exclude_from_search": false,
+                "update": true,
+                "size": 119,
+                "type": "terms",
+                "changed": true,
+                "quantity": "results.material.elements"
+              }
+            }
+          },
+          "pagination": {
+            "page_size": 0
+          },
+          "required": {
+            "include": []
+          }
+        },
+        "headers": {
+          "accept": "application/json, text/plain, */*",
+          "content-type": "application/json",
+          "cookie": null
+        }
+      },
+      "response": {
+        "status": 200,
+        "body": {
+          "owner": "visible",
+          "query": {
+            "name": "results.material.elements",
+            "value": {
+              "all": [
+                "C"
+              ]
+            }
+          },
+          "pagination": {
+            "page_size": 0,
+            "order_by": "entry_id",
+            "order": "asc",
+            "total": 3
+          },
+          "required": {
+            "include": [
+              "entry_id"
+            ]
+          },
+          "aggregations": {
+            "results.material.elements:default": {
+              "terms": {
+                "quantity": "results.material.elements",
+                "exclude_from_search": false,
+                "metrics": [],
+                "size": 119,
+                "data": [
+                  {
+                    "count": 3,
+                    "nested_count": 3,
+                    "value": "C"
+                  },
+                  {
+                    "count": 2,
+                    "nested_count": 2,
+                    "value": "H"
+                  },
+                  {
+                    "count": 1,
+                    "nested_count": 1,
+                    "value": "I"
+                  },
+                  {
+                    "count": 1,
+                    "nested_count": 1,
+                    "value": "N"
+                  },
+                  {
+                    "count": 1,
+                    "nested_count": 1,
+                    "value": "Pb"
+                  }
+                ]
+              }
+            }
+          },
+          "data": []
+        },
+        "headers": {
+          "connection": "close",
+          "content-length": "1103",
+          "content-type": "application/json",
+          "server": "uvicorn"
+        }
+      }
+    },
+    {
+      "request": {
+        "url": "http://localhost:8000/fairdi/nomad/latest/api/v1/entries/query",
+        "method": "POST",
+        "body": {
+          "owner": "visible",
+          "query": {
+            "results.material.elements_exclusive": "C"
+          },
+          "aggregations": {
+            "results.material.elements:default": {
+              "terms": {
+                "exclude_from_search": false,
+                "update": true,
+                "size": 119,
+                "type": "terms",
+                "changed": true,
+                "quantity": "results.material.elements"
+              }
+            }
+          },
+          "pagination": {
+            "page_size": 0
+          },
+          "required": {
+            "include": []
+          }
+        },
+        "headers": {
+          "accept": "application/json, text/plain, */*",
+          "content-type": "application/json",
+          "cookie": null
+        }
+      },
+      "response": {
+        "status": 200,
+        "body": {
+          "owner": "visible",
+          "query": {
+            "name": "results.material.elements_exclusive",
+            "value": "C"
+          },
+          "pagination": {
+            "page_size": 0,
+            "order_by": "entry_id",
+            "order": "asc",
+            "total": 1
+          },
+          "required": {
+            "include": [
+              "entry_id"
+            ]
+          },
+          "aggregations": {
+            "results.material.elements:default": {
+              "terms": {
+                "quantity": "results.material.elements",
+                "exclude_from_search": false,
+                "metrics": [],
+                "size": 119,
+                "data": [
+                  {
+                    "count": 1,
+                    "nested_count": 1,
+                    "value": "C"
+                  }
+                ]
+              }
+            }
+          },
+          "data": []
+        },
+        "headers": {
+          "connection": "close",
+          "content-length": "653",
+          "content-type": "application/json",
+          "server": "uvicorn"
+        }
+      }
+    }
+  ]
+}

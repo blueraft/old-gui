@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Include tinyMCE -->
+    <script src="%PUBLIC_URL%/tinymce/tinymce.min.js"></script>
+
+    <script>
+      window.paceOptions = {
+        restartOnPushState: true
+      }
+      // This needs to be defined for Plotly.js graphs, see
+      // https://github.com/plotly/plotly.js/blob/master/dist/README.md#partial-bundles
+      window.PlotlyConfig = {MathJaxConfig: 'local'}
+    </script>
+    <script src="https://unpkg.com/pace-js@1.0.2/pace.min.js"></script>
+    <link href="%PUBLIC_URL%/pace.css" rel="stylesheet" />
+    <link href="%PUBLIC_URL%/main.css" rel="stylesheet" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/favicon.png" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <!--
+      manifest.json provides metadata used when your web app is added to the
+      homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  </head>
+  <body>
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+    <script src="%REACT_APP_BACKEND_URL%/gui/env.js"></script>
+    <script src="%REACT_APP_BACKEND_URL%/gui/artifacts.js"></script>
+
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+
+    <!--Root error-->
+    <script>
+      window.addEventListener("error", async (error) => {
+        // In react development builds, errors will always propagate to the top
+        // (also through error boundaries) and will be displayed with the error
+        // overlay, so we don't handle them here.
+        if (process && process.env.NODE_ENV === 'development') return
+
+        // Log the error in console to help in debugging
+        console.log(error)
+
+        // Display a help message for the user that suggests reloading. The style and
+        // contents of this message mimics the the React error boundary.
+        const rootError = document.getElementById("rootError")
+        rootError.style.display = 'block'
+      })
+    </script>
+    <div id="rootError" style="display: none;">
+      <p class="errorText" id="errorTextRed">Something went wrong in this part of the app (Javascript error). Please close all NOMAD tabs and try again. Let us know, if this error keeps happening.</p>
+      <p class="errorText">Please, write to <a class="errorLink" href="mailto:support@nomad-lab.eu">support@nomad-lab.eu</a>, or open an issue on our <a class="errorLink" href="https://github.com/nomad-coe/nomad/issues">github project<a>.</p>
+    </div>
+  </body>
+</html>

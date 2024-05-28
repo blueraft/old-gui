@@ -1,0 +1,385 @@
+{
+  "afa783d98e040c74b68e5cfd3d82f3f0": [
+    {
+      "request": {
+        "url": "http://localhost:8000/fairdi/nomad/latest/api/v1/entries/query",
+        "method": "POST",
+        "body": {
+          "owner": "visible",
+          "query": {},
+          "aggregations": {
+            "results.material.structural_type:0": {
+              "terms": {
+                "exclude_from_search": true,
+                "update": true,
+                "size": 8,
+                "type": "terms",
+                "changed": true,
+                "quantity": "results.material.structural_type"
+              }
+            }
+          },
+          "pagination": {
+            "page_size": 0
+          },
+          "required": {
+            "include": []
+          }
+        },
+        "headers": {
+          "accept": "application/json, text/plain, */*",
+          "content-type": "application/json",
+          "cookie": null
+        }
+      },
+      "response": {
+        "status": 200,
+        "body": {
+          "owner": "visible",
+          "query": {},
+          "pagination": {
+            "page_size": 0,
+            "order_by": "entry_id",
+            "order": "asc",
+            "total": 4
+          },
+          "required": {
+            "include": [
+              "entry_id"
+            ]
+          },
+          "aggregations": {
+            "results.material.structural_type:0": {
+              "terms": {
+                "quantity": "results.material.structural_type",
+                "exclude_from_search": true,
+                "metrics": [],
+                "size": 8,
+                "data": [
+                  {
+                    "count": 2,
+                    "nested_count": 2,
+                    "value": "bulk"
+                  },
+                  {
+                    "count": 1,
+                    "nested_count": 1,
+                    "value": "2D"
+                  },
+                  {
+                    "count": 1,
+                    "nested_count": 1,
+                    "value": "molecule / cluster"
+                  }
+                ]
+              }
+            }
+          },
+          "data": []
+        },
+        "headers": {
+          "connection": "close",
+          "content-length": "818",
+          "content-type": "application/json",
+          "server": "uvicorn"
+        }
+      }
+    },
+    {
+      "request": {
+        "url": "http://localhost:8000/fairdi/nomad/latest/api/v1/entries/query",
+        "method": "POST",
+        "body": {
+          "owner": "visible",
+          "query": {},
+          "aggregations": {
+            "results.material.n_elements:0_histogram": {
+              "histogram": {
+                "exclude_from_search": true,
+                "update": true,
+                "type": "histogram",
+                "interval": 1,
+                "changed": true,
+                "quantity": "results.material.n_elements"
+              }
+            }
+          },
+          "pagination": {
+            "page_size": 0
+          },
+          "required": {
+            "include": []
+          }
+        },
+        "headers": {
+          "accept": "application/json, text/plain, */*",
+          "content-type": "application/json",
+          "cookie": null
+        }
+      },
+      "response": {
+        "status": 200,
+        "body": {
+          "owner": "visible",
+          "query": {},
+          "pagination": {
+            "page_size": 0,
+            "order_by": "entry_id",
+            "order": "asc",
+            "total": 4
+          },
+          "required": {
+            "include": [
+              "entry_id"
+            ]
+          },
+          "aggregations": {
+            "results.material.n_elements:0_histogram": {
+              "histogram": {
+                "quantity": "results.material.n_elements",
+                "exclude_from_search": true,
+                "metrics": [],
+                "interval": 1,
+                "data": [
+                  {
+                    "count": 1,
+                    "nested_count": 1,
+                    "value": 1
+                  },
+                  {
+                    "count": 1,
+                    "nested_count": 1,
+                    "value": 2
+                  },
+                  {
+                    "count": 0,
+                    "nested_count": 0,
+                    "value": 3
+                  },
+                  {
+                    "count": 0,
+                    "nested_count": 0,
+                    "value": 4
+                  },
+                  {
+                    "count": 2,
+                    "nested_count": 2,
+                    "value": 5
+                  }
+                ]
+              }
+            }
+          },
+          "data": []
+        },
+        "headers": {
+          "connection": "close",
+          "content-length": "1017",
+          "content-type": "application/json",
+          "server": "uvicorn"
+        }
+      }
+    },
+    {
+      "request": {
+        "url": "http://localhost:8000/fairdi/nomad/latest/api/v1/entries/query",
+        "method": "POST",
+        "body": {
+          "owner": "visible",
+          "query": {},
+          "aggregations": {
+            "results.material.elements:default": {
+              "terms": {
+                "exclude_from_search": false,
+                "update": true,
+                "size": 119,
+                "type": "terms",
+                "changed": true,
+                "quantity": "results.material.elements"
+              }
+            }
+          },
+          "pagination": {
+            "page_size": 0
+          },
+          "required": {
+            "include": []
+          }
+        },
+        "headers": {
+          "accept": "application/json, text/plain, */*",
+          "content-type": "application/json",
+          "cookie": null
+        }
+      },
+      "response": {
+        "status": 200,
+        "body": {
+          "owner": "visible",
+          "query": {},
+          "pagination": {
+            "page_size": 0,
+            "order_by": "entry_id",
+            "order": "asc",
+            "total": 4
+          },
+          "required": {
+            "include": [
+              "entry_id"
+            ]
+          },
+          "aggregations": {
+            "results.material.elements:default": {
+              "terms": {
+                "quantity": "results.material.elements",
+                "exclude_from_search": false,
+                "metrics": [],
+                "size": 119,
+                "data": [
+                  {
+                    "count": 3,
+                    "nested_count": 3,
+                    "value": "C"
+                  },
+                  {
+                    "count": 2,
+                    "nested_count": 2,
+                    "value": "H"
+                  },
+                  {
+                    "count": 1,
+                    "nested_count": 1,
+                    "value": "Hf"
+                  },
+                  {
+                    "count": 1,
+                    "nested_count": 1,
+                    "value": "I"
+                  },
+                  {
+                    "count": 1,
+                    "nested_count": 1,
+                    "value": "N"
+                  },
+                  {
+                    "count": 1,
+                    "nested_count": 1,
+                    "value": "Nb"
+                  },
+                  {
+                    "count": 1,
+                    "nested_count": 1,
+                    "value": "Pb"
+                  },
+                  {
+                    "count": 1,
+                    "nested_count": 1,
+                    "value": "Ta"
+                  },
+                  {
+                    "count": 1,
+                    "nested_count": 1,
+                    "value": "Ti"
+                  },
+                  {
+                    "count": 1,
+                    "nested_count": 1,
+                    "value": "Zr"
+                  }
+                ]
+              }
+            }
+          },
+          "data": []
+        },
+        "headers": {
+          "connection": "close",
+          "content-length": "1533",
+          "content-type": "application/json",
+          "server": "uvicorn"
+        }
+      }
+    },
+    {
+      "request": {
+        "url": "http://localhost:8000/fairdi/nomad/latest/api/v1/entries/query",
+        "method": "POST",
+        "body": {
+          "owner": "visible",
+          "query": {},
+          "aggregations": {},
+          "pagination": {
+            "page_size": 1000,
+            "order": "asc",
+            "order_by": "entry_id"
+          },
+          "required": {
+            "include": [
+              "entry_id",
+              "results.properties.optoelectronic.solar_cell.open_circuit_voltage",
+              "results.properties.optoelectronic.solar_cell.efficiency",
+              "results.properties.optoelectronic.solar_cell.short_circuit_current_density"
+            ]
+          }
+        },
+        "headers": {
+          "accept": "application/json, text/plain, */*",
+          "content-type": "application/json",
+          "cookie": null
+        }
+      },
+      "response": {
+        "status": 200,
+        "body": {
+          "owner": "visible",
+          "query": {},
+          "pagination": {
+            "page_size": 1000,
+            "order_by": "entry_id",
+            "order": "asc",
+            "total": 4
+          },
+          "required": {
+            "include": [
+              "entry_id",
+              "results.properties.optoelectronic.solar_cell.open_circuit_voltage",
+              "results.properties.optoelectronic.solar_cell.efficiency",
+              "results.properties.optoelectronic.solar_cell.short_circuit_current_density"
+            ]
+          },
+          "data": [
+            {
+              "entry_id": "JzdbQUkxQB-NeTgl2DVeQw"
+            },
+            {
+              "entry_id": "n4uD7zucT2uNAdB1t-C3NA"
+            },
+            {
+              "results": {
+                "properties": {
+                  "optoelectronic": {
+                    "solar_cell": {
+                      "efficiency": 15.9,
+                      "short_circuit_current_density": 203,
+                      "open_circuit_voltage": 1
+                    }
+                  }
+                }
+              },
+              "entry_id": "sW0BAUZURQeBY9KUN5L8TQ"
+            },
+            {
+              "entry_id": "tl4QyvOOQQ2Hu_LLWJik7Q"
+            }
+          ]
+        },
+        "headers": {
+          "connection": "close",
+          "content-length": "949",
+          "content-type": "application/json",
+          "server": "uvicorn"
+        }
+      }
+    }
+  ]
+}

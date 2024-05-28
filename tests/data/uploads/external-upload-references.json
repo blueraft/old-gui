@@ -1,0 +1,2074 @@
+{
+  "a3d4c3106501f7109c04a197d8b599bb": [
+    {
+      "request": {
+        "url": "http://localhost:8000/fairdi/nomad/latest/api/v1/uploads/references_upload_id2/raw/README.md",
+        "method": "GET",
+        "body": "",
+        "headers": {
+          "accept": "application/json",
+          "authorization": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJSWFFIV1YxSEJ6cmh5U3h3UmRDdkhCcUF1WVNKRzZWSEJSZXg0TW5oX293In0.eyJqdGkiOiI1M2IyMjQ5YS00MDUyLTQzOTktOGViNC1iNzBiODg5ZjljZDUiLCJleHAiOjE2ODEyNjE2OTAsIm5iZiI6MCwiaWF0IjoxNjgxMjI1NzIzLCJpc3MiOiJodHRwczovL25vbWFkLWxhYi5ldS9mYWlyZGkva2V5Y2xvYWsvYXV0aC9yZWFsbXMvZmFpcmRpX25vbWFkX3Rlc3QiLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiNjg4NzhhZjctNjg0NS00NmMwLWIyYzEtMjUwZDRkOGViNDcwIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoibm9tYWRfZ3VpX2RldiIsImF1dGhfdGltZSI6MCwic2Vzc2lvbl9zdGF0ZSI6ImYwM2ZmZTE3LWI1ZjQtNDEyMS04N2M0LWRmNDQzNjAyNTI3OSIsImFjciI6IjEiLCJhbGxvd2VkLW9yaWdpbnMiOlsiKiJdLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsib2ZmbGluZV9hY2Nlc3MiLCJ1bWFfYXV0aG9yaXphdGlvbiJdfSwicmVzb3VyY2VfYWNjZXNzIjp7ImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoiZW1haWwgcHJvZmlsZSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJuYW1lIjoiTWFya3VzIFNjaGVpZGdlbiIsInByZWZlcnJlZF91c2VybmFtZSI6InRlc3QiLCJnaXZlbl9uYW1lIjoiTWFya3VzIiwiZmFtaWx5X25hbWUiOiJTY2hlaWRnZW4iLCJlbWFpbCI6Im1hcmt1cy5zY2hlaWRnZW5AZmhpLWJlcmxpbi5kZSJ9.WWS09pFnjdvVsEBxWMqSBGPJyRi3IeaznUFPz0V7FMjJ99tkhiVedoOF8zGwwvI7ZHeyx-PscH0SxQhaV2e8vPy5-4frksYhEVWtAKDmhCysT9DaYwSlow26l4oKMABQR3c7mE9-u_DUZRFVkY-3B7DS3GnDuaYQ3Do6FL1vhFQcwOmdXADRYFcBLu6a6LHp4u-tyvI84N412Q-jTb8Wg0-qH984To6mHoJU5K8tyb5OAV9R2li41B8DWX3VUuv3E3vrZ6R6oaBAdQ-DDTFJ8L3u-BdQnnc4_E2tXcVtZ50lgvg9M1eq26yhaWDV5PjnuTaPCpcw051U6Q-rN-5rHA",
+          "cookie": null
+        }
+      },
+      "response": {
+        "status": 404,
+        "body": {
+          "detail": "Not found. Invalid path?"
+        },
+        "headers": {
+          "connection": "close",
+          "content-length": "37",
+          "content-type": "application/json",
+          "server": "uvicorn"
+        }
+      }
+    }
+  ],
+  "462caf6c63845afa381eebb0a79e5805": [
+    {
+      "request": {
+        "url": "http://localhost:8000/fairdi/nomad/latest/api/v1/uploads/references_upload_id2/entries?order=asc&order_by=process_status&page=1&page_size=5",
+        "method": "GET",
+        "body": "",
+        "headers": {
+          "accept": "application/json",
+          "authorization": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJSWFFIV1YxSEJ6cmh5U3h3UmRDdkhCcUF1WVNKRzZWSEJSZXg0TW5oX293In0.eyJqdGkiOiI1M2IyMjQ5YS00MDUyLTQzOTktOGViNC1iNzBiODg5ZjljZDUiLCJleHAiOjE2ODEyNjE2OTAsIm5iZiI6MCwiaWF0IjoxNjgxMjI1NzIzLCJpc3MiOiJodHRwczovL25vbWFkLWxhYi5ldS9mYWlyZGkva2V5Y2xvYWsvYXV0aC9yZWFsbXMvZmFpcmRpX25vbWFkX3Rlc3QiLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiNjg4NzhhZjctNjg0NS00NmMwLWIyYzEtMjUwZDRkOGViNDcwIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoibm9tYWRfZ3VpX2RldiIsImF1dGhfdGltZSI6MCwic2Vzc2lvbl9zdGF0ZSI6ImYwM2ZmZTE3LWI1ZjQtNDEyMS04N2M0LWRmNDQzNjAyNTI3OSIsImFjciI6IjEiLCJhbGxvd2VkLW9yaWdpbnMiOlsiKiJdLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsib2ZmbGluZV9hY2Nlc3MiLCJ1bWFfYXV0aG9yaXphdGlvbiJdfSwicmVzb3VyY2VfYWNjZXNzIjp7ImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoiZW1haWwgcHJvZmlsZSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJuYW1lIjoiTWFya3VzIFNjaGVpZGdlbiIsInByZWZlcnJlZF91c2VybmFtZSI6InRlc3QiLCJnaXZlbl9uYW1lIjoiTWFya3VzIiwiZmFtaWx5X25hbWUiOiJTY2hlaWRnZW4iLCJlbWFpbCI6Im1hcmt1cy5zY2hlaWRnZW5AZmhpLWJlcmxpbi5kZSJ9.WWS09pFnjdvVsEBxWMqSBGPJyRi3IeaznUFPz0V7FMjJ99tkhiVedoOF8zGwwvI7ZHeyx-PscH0SxQhaV2e8vPy5-4frksYhEVWtAKDmhCysT9DaYwSlow26l4oKMABQR3c7mE9-u_DUZRFVkY-3B7DS3GnDuaYQ3Do6FL1vhFQcwOmdXADRYFcBLu6a6LHp4u-tyvI84N412Q-jTb8Wg0-qH984To6mHoJU5K8tyb5OAV9R2li41B8DWX3VUuv3E3vrZ6R6oaBAdQ-DDTFJ8L3u-BdQnnc4_E2tXcVtZ50lgvg9M1eq26yhaWDV5PjnuTaPCpcw051U6Q-rN-5rHA",
+          "cookie": null
+        }
+      },
+      "response": {
+        "status": 200,
+        "body": {
+          "pagination": {
+            "page_size": 5,
+            "order_by": "process_status",
+            "order": "asc",
+            "page": 1,
+            "total": 3,
+            "page_url": "http://localhost:8000/fairdi/nomad/latest/api/v1/uploads/references_upload_id2/entries?order=asc&order_by=process_status&page=1&page_size=5",
+            "first_page_url": "http://localhost:8000/fairdi/nomad/latest/api/v1/uploads/references_upload_id2/entries?order=asc&order_by=process_status&page_size=5"
+          },
+          "processing_successful": 3,
+          "processing_failed": 0,
+          "upload": {
+            "process_running": false,
+            "current_process": "process_upload",
+            "process_status": "SUCCESS",
+            "last_status_message": "Process process_upload completed successfully",
+            "errors": [],
+            "warnings": [],
+            "complete_time": "2023-04-11T15:08:37.851000",
+            "upload_id": "references_upload_id2",
+            "upload_create_time": "2023-04-11T15:08:36.928000",
+            "main_author": "68878af7-6845-46c0-b2c1-250d4d8eb470",
+            "coauthors": [
+              "a03af8b6-3aa7-428a-b3b1-4a6317e576b6"
+            ],
+            "reviewers": [
+              "54cb1f64-f84e-4815-9ade-440ce0b5430f"
+            ],
+            "viewers": [
+              "68878af7-6845-46c0-b2c1-250d4d8eb470",
+              "a03af8b6-3aa7-428a-b3b1-4a6317e576b6",
+              "54cb1f64-f84e-4815-9ade-440ce0b5430f"
+            ],
+            "writers": [
+              "68878af7-6845-46c0-b2c1-250d4d8eb470",
+              "a03af8b6-3aa7-428a-b3b1-4a6317e576b6"
+            ],
+            "published": false,
+            "published_to": [],
+            "with_embargo": false,
+            "embargo_length": 0,
+            "license": "CC BY 4.0",
+            "entries": 3,
+            "upload_files_server_path": ".volumes/test_fs/staging/re/references_upload_id2"
+          },
+          "data": [
+            {
+              "process_running": false,
+              "current_process": "process_entry",
+              "process_status": "SUCCESS",
+              "last_status_message": "Process process_entry completed successfully",
+              "errors": [],
+              "warnings": [],
+              "complete_time": "2023-04-11T15:08:37.407000",
+              "entry_id": "SFewp4XgAR_YJAZv078a1VcWU9o3",
+              "entry_create_time": "2023-04-11T15:08:36.954000",
+              "mainfile": "baseOnAContents.schema.archive.yaml",
+              "upload_id": "references_upload_id2",
+              "parser_name": "parsers/archive",
+              "entry_metadata": {
+                "upload_id": "references_upload_id2",
+                "references": [],
+                "origin": "Markus Scheidgen",
+                "quantities": [
+                  "",
+                  "definitions",
+                  "definitions.more",
+                  "definitions.name",
+                  "definitions.section_definitions",
+                  "definitions.section_definitions.base_sections",
+                  "definitions.section_definitions.more",
+                  "definitions.section_definitions.name",
+                  "definitions.section_definitions.quantities",
+                  "definitions.section_definitions.quantities.more",
+                  "definitions.section_definitions.quantities.name",
+                  "definitions.section_definitions.quantities.type",
+                  "metadata",
+                  "metadata.coauthors",
+                  "metadata.datasets",
+                  "metadata.embargo_length",
+                  "metadata.entry_coauthors",
+                  "metadata.entry_create_time",
+                  "metadata.entry_hash",
+                  "metadata.entry_id",
+                  "metadata.entry_name",
+                  "metadata.entry_references",
+                  "metadata.entry_references.source_name",
+                  "metadata.entry_references.source_path",
+                  "metadata.entry_references.source_quantity",
+                  "metadata.entry_references.target_entry_id",
+                  "metadata.entry_references.target_name",
+                  "metadata.entry_references.target_path",
+                  "metadata.entry_references.target_reference",
+                  "metadata.entry_timestamp",
+                  "metadata.entry_timestamp.timestamp",
+                  "metadata.entry_timestamp.token",
+                  "metadata.entry_timestamp.token_seed",
+                  "metadata.entry_timestamp.tsa_server",
+                  "metadata.entry_type",
+                  "metadata.files",
+                  "metadata.last_processing_time",
+                  "metadata.license",
+                  "metadata.main_author",
+                  "metadata.mainfile",
+                  "metadata.nomad_commit",
+                  "metadata.nomad_version",
+                  "metadata.parser_name",
+                  "metadata.processed",
+                  "metadata.processing_errors",
+                  "metadata.published",
+                  "metadata.quantities",
+                  "metadata.references",
+                  "metadata.reviewers",
+                  "metadata.section_defs",
+                  "metadata.section_defs.definition_id",
+                  "metadata.section_defs.definition_qualified_name",
+                  "metadata.section_defs.used_directly",
+                  "metadata.sections",
+                  "metadata.upload_create_time",
+                  "metadata.upload_id",
+                  "metadata.with_embargo",
+                  "results",
+                  "results.properties",
+                  "results.properties.available_properties"
+                ],
+                "datasets": [],
+                "n_quantities": 49,
+                "nomad_version": "1.1.9.dev99+gdb2312624.d20230330",
+                "upload_create_time": "2023-04-11T15:08:36.928000+00:00",
+                "nomad_commit": "",
+                "section_defs": [
+                  {
+                    "used_directly": true,
+                    "definition_id": "7047cbff9980abff17cce4b1b6b0d1c783505b7f",
+                    "definition_qualified_name": "nomad.datamodel.data.ArchiveSection"
+                  },
+                  {
+                    "used_directly": true,
+                    "definition_id": "4b9c2c1cc58f12cd74da03b51ab7d701a14dbca7",
+                    "definition_qualified_name": "nomad.datamodel.datamodel.EntryArchive"
+                  },
+                  {
+                    "used_directly": true,
+                    "definition_id": "4e94041db1cb8b110c348717f6ec50a56054df65",
+                    "definition_qualified_name": "nomad.datamodel.datamodel.EntryArchiveReference"
+                  },
+                  {
+                    "used_directly": true,
+                    "definition_id": "c1433047212d95b5607397e0b759bb1508abb19b",
+                    "definition_qualified_name": "nomad.datamodel.datamodel.EntryMetadata"
+                  },
+                  {
+                    "used_directly": true,
+                    "definition_id": "265ae33dbc9ace82b50260c1050d30c59ef9cb3c",
+                    "definition_qualified_name": "nomad.datamodel.datamodel.RFC3161Timestamp"
+                  },
+                  {
+                    "used_directly": true,
+                    "definition_id": "bd968238cc0b1918b9dcf488effbd69cb2a35fcc",
+                    "definition_qualified_name": "nomad.datamodel.results.Properties"
+                  },
+                  {
+                    "used_directly": true,
+                    "definition_id": "3d33457b156dd998c30d07a4f4429b1836ad0ea4",
+                    "definition_qualified_name": "nomad.datamodel.results.Results"
+                  },
+                  {
+                    "used_directly": true,
+                    "definition_id": "f6617f133366ffb8cd1bde4bf643ca5bae1db7f8",
+                    "definition_qualified_name": "nomad.metainfo.metainfo.Definition"
+                  },
+                  {
+                    "used_directly": true,
+                    "definition_id": "4b3a70a5e3f97b976da7ec3ed8c7c73f2078a518",
+                    "definition_qualified_name": "nomad.metainfo.metainfo.Package"
+                  },
+                  {
+                    "used_directly": true,
+                    "definition_id": "28f841a88474d266eded1141318ea4c42d3aff3f",
+                    "definition_qualified_name": "nomad.metainfo.metainfo.Property"
+                  },
+                  {
+                    "used_directly": true,
+                    "definition_id": "d12b9e6f4aed521dc6feeb67239a929542f78b8d",
+                    "definition_qualified_name": "nomad.metainfo.metainfo.Quantity"
+                  },
+                  {
+                    "used_directly": true,
+                    "definition_id": "af7788dea6a320c2bec44814d49fb334cae97efa",
+                    "definition_qualified_name": "nomad.metainfo.metainfo.Section"
+                  }
+                ],
+                "processing_errors": [],
+                "results": {
+                  "properties": {
+                    "available_properties": []
+                  }
+                },
+                "entry_name": "Set your name here",
+                "last_processing_time": "2023-04-11T15:08:37.325000+00:00",
+                "parser_name": "parsers/archive",
+                "calc_id": "SFewp4XgAR_YJAZv078a1VcWU9o3",
+                "published": false,
+                "writers": [
+                  {
+                    "user_id": "68878af7-6845-46c0-b2c1-250d4d8eb470",
+                    "name": "Markus Scheidgen"
+                  },
+                  {
+                    "user_id": "a03af8b6-3aa7-428a-b3b1-4a6317e576b6",
+                    "name": "Sheldon Cooper"
+                  }
+                ],
+                "sections": [
+                  "nomad.datamodel.datamodel.EntryArchive",
+                  "nomad.datamodel.datamodel.EntryArchiveReference",
+                  "nomad.datamodel.datamodel.EntryMetadata",
+                  "nomad.datamodel.datamodel.RFC3161Timestamp",
+                  "nomad.datamodel.results.Properties",
+                  "nomad.datamodel.results.Results",
+                  "nomad.metainfo.metainfo.Package",
+                  "nomad.metainfo.metainfo.Quantity",
+                  "nomad.metainfo.metainfo.Section"
+                ],
+                "processed": true,
+                "mainfile": "baseOnAContents.schema.archive.yaml",
+                "main_author": {
+                  "user_id": "68878af7-6845-46c0-b2c1-250d4d8eb470",
+                  "name": "Markus Scheidgen"
+                },
+                "viewers": [
+                  {
+                    "user_id": "68878af7-6845-46c0-b2c1-250d4d8eb470",
+                    "name": "Markus Scheidgen"
+                  },
+                  {
+                    "user_id": "a03af8b6-3aa7-428a-b3b1-4a6317e576b6",
+                    "name": "Sheldon Cooper"
+                  },
+                  {
+                    "user_id": "54cb1f64-f84e-4815-9ade-440ce0b5430f",
+                    "name": "Test Tester"
+                  }
+                ],
+                "entry_create_time": "2023-04-11T15:08:36.954000+00:00",
+                "with_embargo": false,
+                "files": [
+                  "baseOnAContents.schema.archive.yaml",
+                  "baseOnSubstance.schema.archive.yaml",
+                  "baseOnSubstanceExtended.schema.archive.yaml"
+                ],
+                "entry_references": [
+                  {
+                    "target_entry_id": "RYcY1pQC7GkErLJaMQHaNhAxW_oN",
+                    "target_name": "AContents",
+                    "target_reference": "../upload/references_upload_id1/archive/RYcY1pQC7GkErLJaMQHaNhAxW_oN#AContents",
+                    "source_path": "definitions.section_definitions.base_sections",
+                    "target_path": "/AContents",
+                    "source_name": "base_sections",
+                    "source_quantity": "nomad.metainfo.metainfo.Section.base_sections"
+                  }
+                ],
+                "entry_type": "Schema",
+                "entry_id": "SFewp4XgAR_YJAZv078a1VcWU9o3",
+                "authors": [
+                  {
+                    "user_id": "68878af7-6845-46c0-b2c1-250d4d8eb470",
+                    "name": "Markus Scheidgen"
+                  },
+                  {
+                    "user_id": "a03af8b6-3aa7-428a-b3b1-4a6317e576b6",
+                    "name": "Sheldon Cooper"
+                  }
+                ],
+                "license": "CC BY 4.0"
+              }
+            },
+            {
+              "process_running": false,
+              "current_process": "process_entry",
+              "process_status": "SUCCESS",
+              "last_status_message": "Process process_entry completed successfully",
+              "errors": [],
+              "warnings": [],
+              "complete_time": "2023-04-11T15:08:37.711000",
+              "entry_id": "WAT1x19Jvf4_wAYwD-6pcC6khYsu",
+              "entry_create_time": "2023-04-11T15:08:36.974000",
+              "mainfile": "baseOnSubstance.schema.archive.yaml",
+              "upload_id": "references_upload_id2",
+              "parser_name": "parsers/archive",
+              "entry_metadata": {
+                "upload_id": "references_upload_id2",
+                "references": [],
+                "origin": "Markus Scheidgen",
+                "quantities": [
+                  "",
+                  "definitions",
+                  "definitions.more",
+                  "definitions.name",
+                  "definitions.section_definitions",
+                  "definitions.section_definitions.base_sections",
+                  "definitions.section_definitions.more",
+                  "definitions.section_definitions.name",
+                  "definitions.section_definitions.quantities",
+                  "definitions.section_definitions.quantities.more",
+                  "definitions.section_definitions.quantities.name",
+                  "definitions.section_definitions.quantities.type",
+                  "metadata",
+                  "metadata.coauthors",
+                  "metadata.datasets",
+                  "metadata.embargo_length",
+                  "metadata.entry_coauthors",
+                  "metadata.entry_create_time",
+                  "metadata.entry_hash",
+                  "metadata.entry_id",
+                  "metadata.entry_name",
+                  "metadata.entry_references",
+                  "metadata.entry_references.source_name",
+                  "metadata.entry_references.source_path",
+                  "metadata.entry_references.source_quantity",
+                  "metadata.entry_references.target_entry_id",
+                  "metadata.entry_references.target_name",
+                  "metadata.entry_references.target_path",
+                  "metadata.entry_references.target_reference",
+                  "metadata.entry_timestamp",
+                  "metadata.entry_timestamp.timestamp",
+                  "metadata.entry_timestamp.token",
+                  "metadata.entry_timestamp.token_seed",
+                  "metadata.entry_timestamp.tsa_server",
+                  "metadata.entry_type",
+                  "metadata.files",
+                  "metadata.last_processing_time",
+                  "metadata.license",
+                  "metadata.main_author",
+                  "metadata.mainfile",
+                  "metadata.nomad_commit",
+                  "metadata.nomad_version",
+                  "metadata.parser_name",
+                  "metadata.processed",
+                  "metadata.processing_errors",
+                  "metadata.published",
+                  "metadata.quantities",
+                  "metadata.references",
+                  "metadata.reviewers",
+                  "metadata.section_defs",
+                  "metadata.section_defs.definition_id",
+                  "metadata.section_defs.definition_qualified_name",
+                  "metadata.section_defs.used_directly",
+                  "metadata.sections",
+                  "metadata.upload_create_time",
+                  "metadata.upload_id",
+                  "metadata.with_embargo",
+                  "results",
+                  "results.properties",
+                  "results.properties.available_properties"
+                ],
+                "datasets": [],
+                "n_quantities": 49,
+                "nomad_version": "1.1.9.dev99+gdb2312624.d20230330",
+                "upload_create_time": "2023-04-11T15:08:36.928000+00:00",
+                "nomad_commit": "",
+                "section_defs": [
+                  {
+                    "used_directly": true,
+                    "definition_id": "7047cbff9980abff17cce4b1b6b0d1c783505b7f",
+                    "definition_qualified_name": "nomad.datamodel.data.ArchiveSection"
+                  },
+                  {
+                    "used_directly": true,
+                    "definition_id": "4b9c2c1cc58f12cd74da03b51ab7d701a14dbca7",
+                    "definition_qualified_name": "nomad.datamodel.datamodel.EntryArchive"
+                  },
+                  {
+                    "used_directly": true,
+                    "definition_id": "4e94041db1cb8b110c348717f6ec50a56054df65",
+                    "definition_qualified_name": "nomad.datamodel.datamodel.EntryArchiveReference"
+                  },
+                  {
+                    "used_directly": true,
+                    "definition_id": "c1433047212d95b5607397e0b759bb1508abb19b",
+                    "definition_qualified_name": "nomad.datamodel.datamodel.EntryMetadata"
+                  },
+                  {
+                    "used_directly": true,
+                    "definition_id": "265ae33dbc9ace82b50260c1050d30c59ef9cb3c",
+                    "definition_qualified_name": "nomad.datamodel.datamodel.RFC3161Timestamp"
+                  },
+                  {
+                    "used_directly": true,
+                    "definition_id": "bd968238cc0b1918b9dcf488effbd69cb2a35fcc",
+                    "definition_qualified_name": "nomad.datamodel.results.Properties"
+                  },
+                  {
+                    "used_directly": true,
+                    "definition_id": "3d33457b156dd998c30d07a4f4429b1836ad0ea4",
+                    "definition_qualified_name": "nomad.datamodel.results.Results"
+                  },
+                  {
+                    "used_directly": true,
+                    "definition_id": "f6617f133366ffb8cd1bde4bf643ca5bae1db7f8",
+                    "definition_qualified_name": "nomad.metainfo.metainfo.Definition"
+                  },
+                  {
+                    "used_directly": true,
+                    "definition_id": "4b3a70a5e3f97b976da7ec3ed8c7c73f2078a518",
+                    "definition_qualified_name": "nomad.metainfo.metainfo.Package"
+                  },
+                  {
+                    "used_directly": true,
+                    "definition_id": "28f841a88474d266eded1141318ea4c42d3aff3f",
+                    "definition_qualified_name": "nomad.metainfo.metainfo.Property"
+                  },
+                  {
+                    "used_directly": true,
+                    "definition_id": "d12b9e6f4aed521dc6feeb67239a929542f78b8d",
+                    "definition_qualified_name": "nomad.metainfo.metainfo.Quantity"
+                  },
+                  {
+                    "used_directly": true,
+                    "definition_id": "af7788dea6a320c2bec44814d49fb334cae97efa",
+                    "definition_qualified_name": "nomad.metainfo.metainfo.Section"
+                  }
+                ],
+                "processing_errors": [],
+                "results": {
+                  "properties": {
+                    "available_properties": []
+                  }
+                },
+                "entry_name": "Set your name here",
+                "last_processing_time": "2023-04-11T15:08:37.644000+00:00",
+                "parser_name": "parsers/archive",
+                "calc_id": "WAT1x19Jvf4_wAYwD-6pcC6khYsu",
+                "published": false,
+                "writers": [
+                  {
+                    "user_id": "68878af7-6845-46c0-b2c1-250d4d8eb470",
+                    "name": "Markus Scheidgen"
+                  },
+                  {
+                    "user_id": "a03af8b6-3aa7-428a-b3b1-4a6317e576b6",
+                    "name": "Sheldon Cooper"
+                  }
+                ],
+                "sections": [
+                  "nomad.datamodel.datamodel.EntryArchive",
+                  "nomad.datamodel.datamodel.EntryArchiveReference",
+                  "nomad.datamodel.datamodel.EntryMetadata",
+                  "nomad.datamodel.datamodel.RFC3161Timestamp",
+                  "nomad.datamodel.results.Properties",
+                  "nomad.datamodel.results.Results",
+                  "nomad.metainfo.metainfo.Package",
+                  "nomad.metainfo.metainfo.Quantity",
+                  "nomad.metainfo.metainfo.Section"
+                ],
+                "processed": true,
+                "mainfile": "baseOnSubstance.schema.archive.yaml",
+                "main_author": {
+                  "user_id": "68878af7-6845-46c0-b2c1-250d4d8eb470",
+                  "name": "Markus Scheidgen"
+                },
+                "viewers": [
+                  {
+                    "user_id": "68878af7-6845-46c0-b2c1-250d4d8eb470",
+                    "name": "Markus Scheidgen"
+                  },
+                  {
+                    "user_id": "a03af8b6-3aa7-428a-b3b1-4a6317e576b6",
+                    "name": "Sheldon Cooper"
+                  },
+                  {
+                    "user_id": "54cb1f64-f84e-4815-9ade-440ce0b5430f",
+                    "name": "Test Tester"
+                  }
+                ],
+                "entry_create_time": "2023-04-11T15:08:36.974000+00:00",
+                "with_embargo": false,
+                "files": [
+                  "baseOnSubstance.schema.archive.yaml",
+                  "baseOnAContents.schema.archive.yaml",
+                  "baseOnSubstanceExtended.schema.archive.yaml"
+                ],
+                "entry_references": [
+                  {
+                    "target_entry_id": "RYcY1pQC7GkErLJaMQHaNhAxW_oN",
+                    "target_name": "Substance",
+                    "target_reference": "../upload/references_upload_id1/archive/RYcY1pQC7GkErLJaMQHaNhAxW_oN#Substance",
+                    "source_path": "definitions.section_definitions.base_sections",
+                    "target_path": "/Substance",
+                    "source_name": "base_sections",
+                    "source_quantity": "nomad.metainfo.metainfo.Section.base_sections"
+                  }
+                ],
+                "entry_type": "Schema",
+                "entry_id": "WAT1x19Jvf4_wAYwD-6pcC6khYsu",
+                "authors": [
+                  {
+                    "user_id": "68878af7-6845-46c0-b2c1-250d4d8eb470",
+                    "name": "Markus Scheidgen"
+                  },
+                  {
+                    "user_id": "a03af8b6-3aa7-428a-b3b1-4a6317e576b6",
+                    "name": "Sheldon Cooper"
+                  }
+                ],
+                "license": "CC BY 4.0"
+              }
+            },
+            {
+              "process_running": false,
+              "current_process": "process_entry",
+              "process_status": "SUCCESS",
+              "last_status_message": "Process process_entry completed successfully",
+              "errors": [],
+              "warnings": [],
+              "complete_time": "2023-04-11T15:08:37.741000",
+              "entry_id": "zExpq70TT-0IcJrWHRQvxryx89tC",
+              "entry_create_time": "2023-04-11T15:08:36.992000",
+              "mainfile": "baseOnSubstanceExtended.schema.archive.yaml",
+              "upload_id": "references_upload_id2",
+              "parser_name": "parsers/archive",
+              "entry_metadata": {
+                "upload_id": "references_upload_id2",
+                "references": [],
+                "origin": "Markus Scheidgen",
+                "quantities": [
+                  "",
+                  "definitions",
+                  "definitions.more",
+                  "definitions.name",
+                  "definitions.section_definitions",
+                  "definitions.section_definitions.base_sections",
+                  "definitions.section_definitions.more",
+                  "definitions.section_definitions.name",
+                  "definitions.section_definitions.quantities",
+                  "definitions.section_definitions.quantities.more",
+                  "definitions.section_definitions.quantities.name",
+                  "definitions.section_definitions.quantities.type",
+                  "metadata",
+                  "metadata.coauthors",
+                  "metadata.datasets",
+                  "metadata.embargo_length",
+                  "metadata.entry_coauthors",
+                  "metadata.entry_create_time",
+                  "metadata.entry_hash",
+                  "metadata.entry_id",
+                  "metadata.entry_name",
+                  "metadata.entry_references",
+                  "metadata.entry_references.source_name",
+                  "metadata.entry_references.source_path",
+                  "metadata.entry_references.source_quantity",
+                  "metadata.entry_references.target_entry_id",
+                  "metadata.entry_references.target_name",
+                  "metadata.entry_references.target_path",
+                  "metadata.entry_references.target_reference",
+                  "metadata.entry_timestamp",
+                  "metadata.entry_timestamp.timestamp",
+                  "metadata.entry_timestamp.token",
+                  "metadata.entry_timestamp.token_seed",
+                  "metadata.entry_timestamp.tsa_server",
+                  "metadata.entry_type",
+                  "metadata.files",
+                  "metadata.last_processing_time",
+                  "metadata.license",
+                  "metadata.main_author",
+                  "metadata.mainfile",
+                  "metadata.nomad_commit",
+                  "metadata.nomad_version",
+                  "metadata.parser_name",
+                  "metadata.processed",
+                  "metadata.processing_errors",
+                  "metadata.published",
+                  "metadata.quantities",
+                  "metadata.references",
+                  "metadata.reviewers",
+                  "metadata.section_defs",
+                  "metadata.section_defs.definition_id",
+                  "metadata.section_defs.definition_qualified_name",
+                  "metadata.section_defs.used_directly",
+                  "metadata.sections",
+                  "metadata.upload_create_time",
+                  "metadata.upload_id",
+                  "metadata.with_embargo",
+                  "results",
+                  "results.properties",
+                  "results.properties.available_properties"
+                ],
+                "datasets": [],
+                "n_quantities": 49,
+                "nomad_version": "1.1.9.dev99+gdb2312624.d20230330",
+                "upload_create_time": "2023-04-11T15:08:36.928000+00:00",
+                "nomad_commit": "",
+                "section_defs": [
+                  {
+                    "used_directly": true,
+                    "definition_id": "7047cbff9980abff17cce4b1b6b0d1c783505b7f",
+                    "definition_qualified_name": "nomad.datamodel.data.ArchiveSection"
+                  },
+                  {
+                    "used_directly": true,
+                    "definition_id": "4b9c2c1cc58f12cd74da03b51ab7d701a14dbca7",
+                    "definition_qualified_name": "nomad.datamodel.datamodel.EntryArchive"
+                  },
+                  {
+                    "used_directly": true,
+                    "definition_id": "4e94041db1cb8b110c348717f6ec50a56054df65",
+                    "definition_qualified_name": "nomad.datamodel.datamodel.EntryArchiveReference"
+                  },
+                  {
+                    "used_directly": true,
+                    "definition_id": "c1433047212d95b5607397e0b759bb1508abb19b",
+                    "definition_qualified_name": "nomad.datamodel.datamodel.EntryMetadata"
+                  },
+                  {
+                    "used_directly": true,
+                    "definition_id": "265ae33dbc9ace82b50260c1050d30c59ef9cb3c",
+                    "definition_qualified_name": "nomad.datamodel.datamodel.RFC3161Timestamp"
+                  },
+                  {
+                    "used_directly": true,
+                    "definition_id": "bd968238cc0b1918b9dcf488effbd69cb2a35fcc",
+                    "definition_qualified_name": "nomad.datamodel.results.Properties"
+                  },
+                  {
+                    "used_directly": true,
+                    "definition_id": "3d33457b156dd998c30d07a4f4429b1836ad0ea4",
+                    "definition_qualified_name": "nomad.datamodel.results.Results"
+                  },
+                  {
+                    "used_directly": true,
+                    "definition_id": "f6617f133366ffb8cd1bde4bf643ca5bae1db7f8",
+                    "definition_qualified_name": "nomad.metainfo.metainfo.Definition"
+                  },
+                  {
+                    "used_directly": true,
+                    "definition_id": "4b3a70a5e3f97b976da7ec3ed8c7c73f2078a518",
+                    "definition_qualified_name": "nomad.metainfo.metainfo.Package"
+                  },
+                  {
+                    "used_directly": true,
+                    "definition_id": "28f841a88474d266eded1141318ea4c42d3aff3f",
+                    "definition_qualified_name": "nomad.metainfo.metainfo.Property"
+                  },
+                  {
+                    "used_directly": true,
+                    "definition_id": "d12b9e6f4aed521dc6feeb67239a929542f78b8d",
+                    "definition_qualified_name": "nomad.metainfo.metainfo.Quantity"
+                  },
+                  {
+                    "used_directly": true,
+                    "definition_id": "af7788dea6a320c2bec44814d49fb334cae97efa",
+                    "definition_qualified_name": "nomad.metainfo.metainfo.Section"
+                  }
+                ],
+                "processing_errors": [],
+                "results": {
+                  "properties": {
+                    "available_properties": []
+                  }
+                },
+                "entry_name": "Set your name here",
+                "last_processing_time": "2023-04-11T15:08:37.660000+00:00",
+                "parser_name": "parsers/archive",
+                "calc_id": "zExpq70TT-0IcJrWHRQvxryx89tC",
+                "published": false,
+                "writers": [
+                  {
+                    "user_id": "68878af7-6845-46c0-b2c1-250d4d8eb470",
+                    "name": "Markus Scheidgen"
+                  },
+                  {
+                    "user_id": "a03af8b6-3aa7-428a-b3b1-4a6317e576b6",
+                    "name": "Sheldon Cooper"
+                  }
+                ],
+                "sections": [
+                  "nomad.datamodel.datamodel.EntryArchive",
+                  "nomad.datamodel.datamodel.EntryArchiveReference",
+                  "nomad.datamodel.datamodel.EntryMetadata",
+                  "nomad.datamodel.datamodel.RFC3161Timestamp",
+                  "nomad.datamodel.results.Properties",
+                  "nomad.datamodel.results.Results",
+                  "nomad.metainfo.metainfo.Package",
+                  "nomad.metainfo.metainfo.Quantity",
+                  "nomad.metainfo.metainfo.Section"
+                ],
+                "processed": true,
+                "mainfile": "baseOnSubstanceExtended.schema.archive.yaml",
+                "main_author": {
+                  "user_id": "68878af7-6845-46c0-b2c1-250d4d8eb470",
+                  "name": "Markus Scheidgen"
+                },
+                "viewers": [
+                  {
+                    "user_id": "68878af7-6845-46c0-b2c1-250d4d8eb470",
+                    "name": "Markus Scheidgen"
+                  },
+                  {
+                    "user_id": "a03af8b6-3aa7-428a-b3b1-4a6317e576b6",
+                    "name": "Sheldon Cooper"
+                  },
+                  {
+                    "user_id": "54cb1f64-f84e-4815-9ade-440ce0b5430f",
+                    "name": "Test Tester"
+                  }
+                ],
+                "entry_create_time": "2023-04-11T15:08:36.992000+00:00",
+                "with_embargo": false,
+                "files": [
+                  "baseOnSubstanceExtended.schema.archive.yaml",
+                  "baseOnAContents.schema.archive.yaml",
+                  "baseOnSubstance.schema.archive.yaml"
+                ],
+                "entry_references": [
+                  {
+                    "target_entry_id": "-ld_4ohLePE2oOcfX_CYa9oiu_1l",
+                    "target_name": "SubstanceExtended",
+                    "target_reference": "../upload/references_upload_id1/archive/-ld_4ohLePE2oOcfX_CYa9oiu_1l#SubstanceExtended",
+                    "source_path": "definitions.section_definitions.base_sections",
+                    "target_path": "/SubstanceExtended",
+                    "source_name": "base_sections",
+                    "source_quantity": "nomad.metainfo.metainfo.Section.base_sections"
+                  }
+                ],
+                "entry_type": "Schema",
+                "entry_id": "zExpq70TT-0IcJrWHRQvxryx89tC",
+                "authors": [
+                  {
+                    "user_id": "68878af7-6845-46c0-b2c1-250d4d8eb470",
+                    "name": "Markus Scheidgen"
+                  },
+                  {
+                    "user_id": "a03af8b6-3aa7-428a-b3b1-4a6317e576b6",
+                    "name": "Sheldon Cooper"
+                  }
+                ],
+                "license": "CC BY 4.0"
+              }
+            }
+          ]
+        },
+        "headers": {
+          "connection": "close",
+          "content-length": "28351",
+          "content-type": "application/json",
+          "server": "uvicorn"
+        }
+      }
+    }
+  ],
+  "6e5e9a28df4cb914b777f9f66bba9f0e": [
+    {
+      "request": {
+        "url": "http://localhost:8000/fairdi/nomad/latest/api/v1/uploads/references_upload_id2/rawdir/?include_entry_info=true&page_size=500",
+        "method": "GET",
+        "body": "",
+        "headers": {
+          "accept": "application/json",
+          "authorization": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJSWFFIV1YxSEJ6cmh5U3h3UmRDdkhCcUF1WVNKRzZWSEJSZXg0TW5oX293In0.eyJqdGkiOiI3NjZhMTBmZC04YzYxLTQ0ZGMtOGI3ZS01NjJlMmI5NGQ2ZDkiLCJleHAiOjE2ODEyNjE2OTAsIm5iZiI6MCwiaWF0IjoxNjgxMjI1NzI2LCJpc3MiOiJodHRwczovL25vbWFkLWxhYi5ldS9mYWlyZGkva2V5Y2xvYWsvYXV0aC9yZWFsbXMvZmFpcmRpX25vbWFkX3Rlc3QiLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiNjg4NzhhZjctNjg0NS00NmMwLWIyYzEtMjUwZDRkOGViNDcwIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoibm9tYWRfZ3VpX2RldiIsImF1dGhfdGltZSI6MCwic2Vzc2lvbl9zdGF0ZSI6ImYwM2ZmZTE3LWI1ZjQtNDEyMS04N2M0LWRmNDQzNjAyNTI3OSIsImFjciI6IjEiLCJhbGxvd2VkLW9yaWdpbnMiOlsiKiJdLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsib2ZmbGluZV9hY2Nlc3MiLCJ1bWFfYXV0aG9yaXphdGlvbiJdfSwicmVzb3VyY2VfYWNjZXNzIjp7ImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoiZW1haWwgcHJvZmlsZSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJuYW1lIjoiTWFya3VzIFNjaGVpZGdlbiIsInByZWZlcnJlZF91c2VybmFtZSI6InRlc3QiLCJnaXZlbl9uYW1lIjoiTWFya3VzIiwiZmFtaWx5X25hbWUiOiJTY2hlaWRnZW4iLCJlbWFpbCI6Im1hcmt1cy5zY2hlaWRnZW5AZmhpLWJlcmxpbi5kZSJ9.TmEbmbQPuyewzCkb-_2I0TkoPTJnLmHKrGalOcqFUMPE2sNK-oYu5dTubShSmsv8HOJo97kcJz1TXCxdO7FZWTJ7grBfeLyaqbWEO0AvsGc4OqjdxU_oQxRPYbseQOeKS5raGj2f2DxQLZW5AybNUePCF97UPrCfgR-b44z24_Yc7a_SKiMGv1gT64H9gjwXj67tbZdsg1ucqfWKAt7mOmFxX17zYYjigyfS-FmV_c62g8aH0W6ZEH7rgM481F1uGlhgw-mr7jlu5OkZOihwGsQm0DhuEf2twjYpJpaWxsBqszlXi7PBUX9C_dH1meAoLmWSvvl-pCUjXkqHdPtWMQ",
+          "cookie": null
+        }
+      },
+      "response": {
+        "status": 200,
+        "body": {
+          "path": "",
+          "access": "unpublished",
+          "directory_metadata": {
+            "name": "",
+            "size": 1370,
+            "content": [
+              {
+                "name": "baseOnAContents.schema.archive.yaml",
+                "size": 454,
+                "entry_id": "SFewp4XgAR_YJAZv078a1VcWU9o3",
+                "parser_name": "parsers/archive",
+                "is_file": true
+              },
+              {
+                "name": "baseOnSubstance.schema.archive.yaml",
+                "size": 454,
+                "entry_id": "WAT1x19Jvf4_wAYwD-6pcC6khYsu",
+                "parser_name": "parsers/archive",
+                "is_file": true
+              },
+              {
+                "name": "baseOnSubstanceExtended.schema.archive.yaml",
+                "size": 462,
+                "entry_id": "zExpq70TT-0IcJrWHRQvxryx89tC",
+                "parser_name": "parsers/archive",
+                "is_file": true
+              }
+            ]
+          },
+          "pagination": {
+            "page_size": 500,
+            "order": "asc",
+            "page": 1,
+            "total": 3,
+            "page_url": "http://localhost:8000/fairdi/nomad/latest/api/v1/uploads/references_upload_id2/rawdir/?include_entry_info=true&page_size=500",
+            "first_page_url": "http://localhost:8000/fairdi/nomad/latest/api/v1/uploads/references_upload_id2/rawdir/?include_entry_info=true&page_size=500"
+          }
+        },
+        "headers": {
+          "connection": "close",
+          "content-length": "1160",
+          "content-type": "application/json",
+          "server": "uvicorn"
+        }
+      }
+    }
+  ],
+  "64e34867e86fc21d5a868ccf50d49841": [
+    {
+      "request": {
+        "url": "http://localhost:8000/fairdi/nomad/latest/api/v1/suggestions",
+        "method": "POST",
+        "body": {
+          "input": "set",
+          "quantities": [
+            {
+              "name": "entry_name",
+              "size": 10
+            },
+            {
+              "name": "mainfile",
+              "size": 10
+            }
+          ]
+        },
+        "headers": {
+          "accept": "application/json, text/plain, */*",
+          "content-type": "application/json",
+          "authorization": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJSWFFIV1YxSEJ6cmh5U3h3UmRDdkhCcUF1WVNKRzZWSEJSZXg0TW5oX293In0.eyJqdGkiOiI0YWJhNWM1NC1kMDIzLTRhMDgtOGI2ZS1lZGI5Y2Y5OGExY2QiLCJleHAiOjE2ODEyNjE2OTAsIm5iZiI6MCwiaWF0IjoxNjgxMjI1NzMxLCJpc3MiOiJodHRwczovL25vbWFkLWxhYi5ldS9mYWlyZGkva2V5Y2xvYWsvYXV0aC9yZWFsbXMvZmFpcmRpX25vbWFkX3Rlc3QiLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiNjg4NzhhZjctNjg0NS00NmMwLWIyYzEtMjUwZDRkOGViNDcwIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoibm9tYWRfZ3VpX2RldiIsImF1dGhfdGltZSI6MCwic2Vzc2lvbl9zdGF0ZSI6ImYwM2ZmZTE3LWI1ZjQtNDEyMS04N2M0LWRmNDQzNjAyNTI3OSIsImFjciI6IjEiLCJhbGxvd2VkLW9yaWdpbnMiOlsiKiJdLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsib2ZmbGluZV9hY2Nlc3MiLCJ1bWFfYXV0aG9yaXphdGlvbiJdfSwicmVzb3VyY2VfYWNjZXNzIjp7ImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoiZW1haWwgcHJvZmlsZSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJuYW1lIjoiTWFya3VzIFNjaGVpZGdlbiIsInByZWZlcnJlZF91c2VybmFtZSI6InRlc3QiLCJnaXZlbl9uYW1lIjoiTWFya3VzIiwiZmFtaWx5X25hbWUiOiJTY2hlaWRnZW4iLCJlbWFpbCI6Im1hcmt1cy5zY2hlaWRnZW5AZmhpLWJlcmxpbi5kZSJ9.FZeQWO6l7MKh1bePVBl5G_BSBCCBdgazppdiUDRzTrDv59s-0XR92Aaf7qdQSGO0AAoWASDB81Q8nokY195kgBO8ywOZBHrcjADiiu_gnChg3RqQpKfY6R8_QstViaWPwQozUlgFZI6sHcBez53WMugCDw-uo0_gFmKZUoNEJxZajXErhDl1AR3cJ6eUz3NCX56czjg4wd9ZqZMVht3SvSUkSs2t_6rclkbJOf4EEpIStGcPycaWIRIv5w0XaTffY0I3pIVPO_TIkMupE9ELm5btAxPpB3wT1ZbBN_WDeTWtx7Ynu5DPhckJUMneRGmqnB2k5FwjAphqnTE-ohg1IQ",
+          "cookie": null
+        }
+      },
+      "response": {
+        "status": 200,
+        "body": {
+          "entry_name": [
+            {
+              "value": "Set your name here",
+              "weight": 1
+            }
+          ]
+        },
+        "headers": {
+          "connection": "close",
+          "content-length": "94",
+          "content-type": "application/json",
+          "server": "uvicorn"
+        }
+      }
+    }
+  ],
+  "afa783d98e040c74b68e5cfd3d82f3f0": [
+    {
+      "request": {
+        "url": "http://localhost:8000/fairdi/nomad/latest/api/v1/entries/query",
+        "method": "POST",
+        "body": {
+          "owner": "visible",
+          "exclude": [
+            "quantities",
+            "sections",
+            "files"
+          ],
+          "query": {
+            "and": [
+              {
+                "entry_type": [
+                  "Schema"
+                ]
+              },
+              {
+                "or": [
+                  {
+                    "entry_name:any": [
+                      "Set your name here"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "headers": {
+          "accept": "application/json",
+          "content-type": "application/json",
+          "authorization": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJSWFFIV1YxSEJ6cmh5U3h3UmRDdkhCcUF1WVNKRzZWSEJSZXg0TW5oX293In0.eyJqdGkiOiI1N2I1Nzg1Ni00N2MxLTQzZDYtYmZlZC1lOTEwNzU4MDRiNDYiLCJleHAiOjE2ODEyNjE2OTAsIm5iZiI6MCwiaWF0IjoxNjgxMjI1NzMyLCJpc3MiOiJodHRwczovL25vbWFkLWxhYi5ldS9mYWlyZGkva2V5Y2xvYWsvYXV0aC9yZWFsbXMvZmFpcmRpX25vbWFkX3Rlc3QiLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiNjg4NzhhZjctNjg0NS00NmMwLWIyYzEtMjUwZDRkOGViNDcwIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoibm9tYWRfZ3VpX2RldiIsImF1dGhfdGltZSI6MCwic2Vzc2lvbl9zdGF0ZSI6ImYwM2ZmZTE3LWI1ZjQtNDEyMS04N2M0LWRmNDQzNjAyNTI3OSIsImFjciI6IjEiLCJhbGxvd2VkLW9yaWdpbnMiOlsiKiJdLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsib2ZmbGluZV9hY2Nlc3MiLCJ1bWFfYXV0aG9yaXphdGlvbiJdfSwicmVzb3VyY2VfYWNjZXNzIjp7ImFjY291bnQiOnsicm9sZXMiOlsibWFuYWdlLWFjY291bnQiLCJtYW5hZ2UtYWNjb3VudC1saW5rcyIsInZpZXctcHJvZmlsZSJdfX0sInNjb3BlIjoiZW1haWwgcHJvZmlsZSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJuYW1lIjoiTWFya3VzIFNjaGVpZGdlbiIsInByZWZlcnJlZF91c2VybmFtZSI6InRlc3QiLCJnaXZlbl9uYW1lIjoiTWFya3VzIiwiZmFtaWx5X25hbWUiOiJTY2hlaWRnZW4iLCJlbWFpbCI6Im1hcmt1cy5zY2hlaWRnZW5AZmhpLWJlcmxpbi5kZSJ9.Jx32VtPg1UOKW5JvIsFftNs3s0vlHlgW4sBTQSmMHBBT-XMN-D-EwcUNNFub5VJp5ufO8xLKohctek6Xy04CgcdKB3XKbSPsI3tiWLEn1bUAcpPbVkZ6csfA-aiclovg_vudtbSQR1N9L2aRetPkGsEZ9wqMKTLCg1qBM__615YOhWNgItETs73cIxLlSXQNkoaRfkWF5WOvr1yWj3mii2BZjyWi1jRMRZut5ck2fpJuLtR_Y98XLLCmzDAyO-eLfJL1ph0K7-2JKfIak20uEoIcr00i5Lcnpm70uNHCRLeAOc4TY2tzwaKjhyYn0Wwn848QQUbglo_vU8W5KtmGFg",
+          "cookie": null
+        }
+      },
+      "response": {
+        "status": 200,
+        "body": {
+          "owner": "visible",
+          "query": {
+            "and": [
+              {
+                "name": "entry_type",
+                "value": {
+                  "all": [
+                    "Schema"
+                  ]
+                }
+              },
+              {
+                "or": [
+                  {
+                    "name": "entry_name",
+                    "value": {
+                      "any": [
+                        "Set your name here"
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          "pagination": {
+            "page_size": 10,
+            "order_by": "entry_id",
+            "order": "asc",
+            "total": 5
+          },
+          "data": [
+            {
+              "upload_id": "references_upload_id1",
+              "references": [],
+              "origin": "Markus Scheidgen",
+              "quantities": [
+                "",
+                "definitions",
+                "definitions.more",
+                "definitions.name",
+                "definitions.section_definitions",
+                "definitions.section_definitions.base_sections",
+                "definitions.section_definitions.more",
+                "definitions.section_definitions.name",
+                "definitions.section_definitions.quantities",
+                "definitions.section_definitions.quantities.more",
+                "definitions.section_definitions.quantities.name",
+                "definitions.section_definitions.quantities.type",
+                "metadata",
+                "metadata.coauthors",
+                "metadata.datasets",
+                "metadata.embargo_length",
+                "metadata.entry_coauthors",
+                "metadata.entry_create_time",
+                "metadata.entry_hash",
+                "metadata.entry_id",
+                "metadata.entry_name",
+                "metadata.entry_references",
+                "metadata.entry_references.source_name",
+                "metadata.entry_references.source_path",
+                "metadata.entry_references.source_quantity",
+                "metadata.entry_references.target_entry_id",
+                "metadata.entry_references.target_name",
+                "metadata.entry_references.target_path",
+                "metadata.entry_references.target_reference",
+                "metadata.entry_timestamp",
+                "metadata.entry_timestamp.timestamp",
+                "metadata.entry_timestamp.token",
+                "metadata.entry_timestamp.token_seed",
+                "metadata.entry_timestamp.tsa_server",
+                "metadata.entry_type",
+                "metadata.files",
+                "metadata.last_processing_time",
+                "metadata.license",
+                "metadata.main_author",
+                "metadata.mainfile",
+                "metadata.nomad_commit",
+                "metadata.nomad_version",
+                "metadata.parser_name",
+                "metadata.processed",
+                "metadata.processing_errors",
+                "metadata.published",
+                "metadata.quantities",
+                "metadata.references",
+                "metadata.reviewers",
+                "metadata.section_defs",
+                "metadata.section_defs.definition_id",
+                "metadata.section_defs.definition_qualified_name",
+                "metadata.section_defs.used_directly",
+                "metadata.sections",
+                "metadata.upload_create_time",
+                "metadata.upload_id",
+                "metadata.with_embargo",
+                "results",
+                "results.properties",
+                "results.properties.available_properties"
+              ],
+              "datasets": [],
+              "n_quantities": 49,
+              "nomad_version": "1.1.9.dev99+gdb2312624.d20230330",
+              "upload_create_time": "2023-04-11T15:08:29.194000+00:00",
+              "nomad_commit": "",
+              "section_defs": [
+                {
+                  "used_directly": true,
+                  "definition_id": "7047cbff9980abff17cce4b1b6b0d1c783505b7f",
+                  "definition_qualified_name": "nomad.datamodel.data.ArchiveSection"
+                },
+                {
+                  "used_directly": true,
+                  "definition_id": "4b9c2c1cc58f12cd74da03b51ab7d701a14dbca7",
+                  "definition_qualified_name": "nomad.datamodel.datamodel.EntryArchive"
+                },
+                {
+                  "used_directly": true,
+                  "definition_id": "4e94041db1cb8b110c348717f6ec50a56054df65",
+                  "definition_qualified_name": "nomad.datamodel.datamodel.EntryArchiveReference"
+                },
+                {
+                  "used_directly": true,
+                  "definition_id": "c1433047212d95b5607397e0b759bb1508abb19b",
+                  "definition_qualified_name": "nomad.datamodel.datamodel.EntryMetadata"
+                },
+                {
+                  "used_directly": true,
+                  "definition_id": "265ae33dbc9ace82b50260c1050d30c59ef9cb3c",
+                  "definition_qualified_name": "nomad.datamodel.datamodel.RFC3161Timestamp"
+                },
+                {
+                  "used_directly": true,
+                  "definition_id": "bd968238cc0b1918b9dcf488effbd69cb2a35fcc",
+                  "definition_qualified_name": "nomad.datamodel.results.Properties"
+                },
+                {
+                  "used_directly": true,
+                  "definition_id": "3d33457b156dd998c30d07a4f4429b1836ad0ea4",
+                  "definition_qualified_name": "nomad.datamodel.results.Results"
+                },
+                {
+                  "used_directly": true,
+                  "definition_id": "f6617f133366ffb8cd1bde4bf643ca5bae1db7f8",
+                  "definition_qualified_name": "nomad.metainfo.metainfo.Definition"
+                },
+                {
+                  "used_directly": true,
+                  "definition_id": "4b3a70a5e3f97b976da7ec3ed8c7c73f2078a518",
+                  "definition_qualified_name": "nomad.metainfo.metainfo.Package"
+                },
+                {
+                  "used_directly": true,
+                  "definition_id": "28f841a88474d266eded1141318ea4c42d3aff3f",
+                  "definition_qualified_name": "nomad.metainfo.metainfo.Property"
+                },
+                {
+                  "used_directly": true,
+                  "definition_id": "d12b9e6f4aed521dc6feeb67239a929542f78b8d",
+                  "definition_qualified_name": "nomad.metainfo.metainfo.Quantity"
+                },
+                {
+                  "used_directly": true,
+                  "definition_id": "af7788dea6a320c2bec44814d49fb334cae97efa",
+                  "definition_qualified_name": "nomad.metainfo.metainfo.Section"
+                }
+              ],
+              "processing_errors": [],
+              "results": {
+                "properties": {
+                  "available_properties": []
+                }
+              },
+              "entry_name": "Set your name here",
+              "last_processing_time": "2023-04-11T15:08:32.039000+00:00",
+              "parser_name": "parsers/archive",
+              "calc_id": "-ld_4ohLePE2oOcfX_CYa9oiu_1l",
+              "published": false,
+              "writers": [
+                {
+                  "user_id": "68878af7-6845-46c0-b2c1-250d4d8eb470",
+                  "name": "Markus Scheidgen"
+                },
+                {
+                  "user_id": "a03af8b6-3aa7-428a-b3b1-4a6317e576b6",
+                  "name": "Sheldon Cooper"
+                }
+              ],
+              "sections": [
+                "nomad.datamodel.datamodel.EntryArchive",
+                "nomad.datamodel.datamodel.EntryArchiveReference",
+                "nomad.datamodel.datamodel.EntryMetadata",
+                "nomad.datamodel.datamodel.RFC3161Timestamp",
+                "nomad.datamodel.results.Properties",
+                "nomad.datamodel.results.Results",
+                "nomad.metainfo.metainfo.Package",
+                "nomad.metainfo.metainfo.Quantity",
+                "nomad.metainfo.metainfo.Section"
+              ],
+              "processed": true,
+              "mainfile": "sameUploadExtendedSections.schema.archive.yaml",
+              "main_author": {
+                "user_id": "68878af7-6845-46c0-b2c1-250d4d8eb470",
+                "name": "Markus Scheidgen"
+              },
+              "viewers": [
+                {
+                  "user_id": "68878af7-6845-46c0-b2c1-250d4d8eb470",
+                  "name": "Markus Scheidgen"
+                },
+                {
+                  "user_id": "a03af8b6-3aa7-428a-b3b1-4a6317e576b6",
+                  "name": "Sheldon Cooper"
+                },
+                {
+                  "user_id": "54cb1f64-f84e-4815-9ade-440ce0b5430f",
+                  "name": "Test Tester"
+                }
+              ],
+              "entry_create_time": "2023-04-11T15:08:31.206000+00:00",
+              "with_embargo": false,
+              "files": [
+                "sameUploadExtendedSections.schema.archive.yaml",
+                "baseSections.schema.archive.yaml",
+                "correct-reference.data.archive.yaml",
+                "general.archive.yaml",
+                "lost-reference.data.archive.yaml",
+                "ref1.archive.yaml",
+                "ref2.archive.yaml",
+                "ref3.archive.yaml",
+                "ref4.archive.yaml",
+                "ref5.archive.yaml",
+                "ref6.archive.yaml",
+                "wrong-path.data.archive.yaml",
+                "wrong-upload-id.data.archive.yaml"
+              ],
+              "entry_references": [
+                {
+                  "target_entry_id": "RYcY1pQC7GkErLJaMQHaNhAxW_oN",
+                  "target_name": "Substance",
+                  "target_reference": "../upload/raw/baseSections.schema.archive.yaml#Substance",
+                  "source_path": "definitions.section_definitions.base_sections",
+                  "target_path": "/Substance",
+                  "source_name": "base_sections",
+                  "source_quantity": "nomad.metainfo.metainfo.Section.base_sections"
+                }
+              ],
+              "entry_type": "Schema",
+              "entry_id": "-ld_4ohLePE2oOcfX_CYa9oiu_1l",
+              "authors": [
+                {
+                  "user_id": "68878af7-6845-46c0-b2c1-250d4d8eb470",
+                  "name": "Markus Scheidgen"
+                },
+                {
+                  "user_id": "a03af8b6-3aa7-428a-b3b1-4a6317e576b6",
+                  "name": "Sheldon Cooper"
+                }
+              ],
+              "license": "CC BY 4.0"
+            },
+            {
+              "upload_id": "references_upload_id1",
+              "references": [],
+              "origin": "Markus Scheidgen",
+              "quantities": [
+                "",
+                "definitions",
+                "definitions.more",
+                "definitions.name",
+                "definitions.section_definitions",
+                "definitions.section_definitions.base_sections",
+                "definitions.section_definitions.more",
+                "definitions.section_definitions.name",
+                "definitions.section_definitions.quantities",
+                "definitions.section_definitions.quantities.more",
+                "definitions.section_definitions.quantities.name",
+                "definitions.section_definitions.quantities.type",
+                "definitions.section_definitions.sub_sections",
+                "definitions.section_definitions.sub_sections.more",
+                "definitions.section_definitions.sub_sections.name",
+                "definitions.section_definitions.sub_sections.repeats",
+                "definitions.section_definitions.sub_sections.sub_section",
+                "metadata",
+                "metadata.coauthors",
+                "metadata.datasets",
+                "metadata.embargo_length",
+                "metadata.entry_coauthors",
+                "metadata.entry_create_time",
+                "metadata.entry_hash",
+                "metadata.entry_id",
+                "metadata.entry_name",
+                "metadata.entry_timestamp",
+                "metadata.entry_timestamp.timestamp",
+                "metadata.entry_timestamp.token",
+                "metadata.entry_timestamp.token_seed",
+                "metadata.entry_timestamp.tsa_server",
+                "metadata.entry_type",
+                "metadata.files",
+                "metadata.last_processing_time",
+                "metadata.license",
+                "metadata.main_author",
+                "metadata.mainfile",
+                "metadata.nomad_commit",
+                "metadata.nomad_version",
+                "metadata.parser_name",
+                "metadata.processed",
+                "metadata.processing_errors",
+                "metadata.published",
+                "metadata.quantities",
+                "metadata.references",
+                "metadata.reviewers",
+                "metadata.section_defs",
+                "metadata.section_defs.definition_id",
+                "metadata.section_defs.definition_qualified_name",
+                "metadata.section_defs.used_directly",
+                "metadata.sections",
+                "metadata.upload_create_time",
+                "metadata.upload_id",
+                "metadata.with_embargo",
+                "results",
+                "results.properties",
+                "results.properties.available_properties"
+              ],
+              "datasets": [],
+              "n_quantities": 125,
+              "nomad_version": "1.1.9.dev99+gdb2312624.d20230330",
+              "upload_create_time": "2023-04-11T15:08:29.194000+00:00",
+              "nomad_commit": "",
+              "section_defs": [
+                {
+                  "used_directly": true,
+                  "definition_id": "7047cbff9980abff17cce4b1b6b0d1c783505b7f",
+                  "definition_qualified_name": "nomad.datamodel.data.ArchiveSection"
+                },
+                {
+                  "used_directly": true,
+                  "definition_id": "4b9c2c1cc58f12cd74da03b51ab7d701a14dbca7",
+                  "definition_qualified_name": "nomad.datamodel.datamodel.EntryArchive"
+                },
+                {
+                  "used_directly": true,
+                  "definition_id": "c1433047212d95b5607397e0b759bb1508abb19b",
+                  "definition_qualified_name": "nomad.datamodel.datamodel.EntryMetadata"
+                },
+                {
+                  "used_directly": true,
+                  "definition_id": "265ae33dbc9ace82b50260c1050d30c59ef9cb3c",
+                  "definition_qualified_name": "nomad.datamodel.datamodel.RFC3161Timestamp"
+                },
+                {
+                  "used_directly": true,
+                  "definition_id": "bd968238cc0b1918b9dcf488effbd69cb2a35fcc",
+                  "definition_qualified_name": "nomad.datamodel.results.Properties"
+                },
+                {
+                  "used_directly": true,
+                  "definition_id": "3d33457b156dd998c30d07a4f4429b1836ad0ea4",
+                  "definition_qualified_name": "nomad.datamodel.results.Results"
+                },
+                {
+                  "used_directly": true,
+                  "definition_id": "f6617f133366ffb8cd1bde4bf643ca5bae1db7f8",
+                  "definition_qualified_name": "nomad.metainfo.metainfo.Definition"
+                },
+                {
+                  "used_directly": true,
+                  "definition_id": "4b3a70a5e3f97b976da7ec3ed8c7c73f2078a518",
+                  "definition_qualified_name": "nomad.metainfo.metainfo.Package"
+                },
+                {
+                  "used_directly": true,
+                  "definition_id": "28f841a88474d266eded1141318ea4c42d3aff3f",
+                  "definition_qualified_name": "nomad.metainfo.metainfo.Property"
+                },
+                {
+                  "used_directly": true,
+                  "definition_id": "d12b9e6f4aed521dc6feeb67239a929542f78b8d",
+                  "definition_qualified_name": "nomad.metainfo.metainfo.Quantity"
+                },
+                {
+                  "used_directly": true,
+                  "definition_id": "af7788dea6a320c2bec44814d49fb334cae97efa",
+                  "definition_qualified_name": "nomad.metainfo.metainfo.Section"
+                },
+                {
+                  "used_directly": true,
+                  "definition_id": "51616d2baf8f6a35b9bd54fb580e7d3b6ed1325b",
+                  "definition_qualified_name": "nomad.metainfo.metainfo.SubSection"
+                }
+              ],
+              "processing_errors": [],
+              "results": {
+                "properties": {
+                  "available_properties": []
+                }
+              },
+              "entry_name": "Set your name here",
+              "last_processing_time": "2023-04-11T15:08:31.879000+00:00",
+              "parser_name": "parsers/archive",
+              "calc_id": "RYcY1pQC7GkErLJaMQHaNhAxW_oN",
+              "published": false,
+              "writers": [
+                {
+                  "user_id": "68878af7-6845-46c0-b2c1-250d4d8eb470",
+                  "name": "Markus Scheidgen"
+                },
+                {
+                  "user_id": "a03af8b6-3aa7-428a-b3b1-4a6317e576b6",
+                  "name": "Sheldon Cooper"
+                }
+              ],
+              "sections": [
+                "nomad.datamodel.datamodel.EntryArchive",
+                "nomad.datamodel.datamodel.EntryMetadata",
+                "nomad.datamodel.datamodel.RFC3161Timestamp",
+                "nomad.datamodel.results.Properties",
+                "nomad.datamodel.results.Results",
+                "nomad.metainfo.metainfo.Package",
+                "nomad.metainfo.metainfo.Quantity",
+                "nomad.metainfo.metainfo.Section",
+                "nomad.metainfo.metainfo.SubSection"
+              ],
+              "processed": true,
+              "mainfile": "baseSections.schema.archive.yaml",
+              "main_author": {
+                "user_id": "68878af7-6845-46c0-b2c1-250d4d8eb470",
+                "name": "Markus Scheidgen"
+              },
+              "viewers": [
+                {
+                  "user_id": "68878af7-6845-46c0-b2c1-250d4d8eb470",
+                  "name": "Markus Scheidgen"
+                },
+                {
+                  "user_id": "a03af8b6-3aa7-428a-b3b1-4a6317e576b6",
+                  "name": "Sheldon Cooper"
+                },
+                {
+                  "user_id": "54cb1f64-f84e-4815-9ade-440ce0b5430f",
+                  "name": "Test Tester"
+                }
+              ],
+              "entry_create_time": "2023-04-11T15:08:31.018000+00:00",
+              "with_embargo": false,
+              "files": [
+                "baseSections.schema.archive.yaml",
+                "correct-reference.data.archive.yaml",
+                "general.archive.yaml",
+                "lost-reference.data.archive.yaml",
+                "ref1.archive.yaml",
+                "ref2.archive.yaml",
+                "ref3.archive.yaml",
+                "ref4.archive.yaml",
+                "ref5.archive.yaml",
+                "ref6.archive.yaml",
+                "sameUploadExtendedSections.schema.archive.yaml",
+                "wrong-path.data.archive.yaml",
+                "wrong-upload-id.data.archive.yaml"
+              ],
+              "entry_type": "Schema",
+              "entry_id": "RYcY1pQC7GkErLJaMQHaNhAxW_oN",
+              "authors": [
+                {
+                  "user_id": "68878af7-6845-46c0-b2c1-250d4d8eb470",
+                  "name": "Markus Scheidgen"
+                },
+                {
+                  "user_id": "a03af8b6-3aa7-428a-b3b1-4a6317e576b6",
+                  "name": "Sheldon Cooper"
+                }
+              ],
+              "license": "CC BY 4.0"
+            },
+            {
+              "upload_id": "references_upload_id2",
+              "references": [],
+              "origin": "Markus Scheidgen",
+              "quantities": [
+                "",
+                "definitions",
+                "definitions.more",
+                "definitions.name",
+                "definitions.section_definitions",
+                "definitions.section_definitions.base_sections",
+                "definitions.section_definitions.more",
+                "definitions.section_definitions.name",
+                "definitions.section_definitions.quantities",
+                "definitions.section_definitions.quantities.more",
+                "definitions.section_definitions.quantities.name",
+                "definitions.section_definitions.quantities.type",
+                "metadata",
+                "metadata.coauthors",
+                "metadata.datasets",
+                "metadata.embargo_length",
+                "metadata.entry_coauthors",
+                "metadata.entry_create_time",
+                "metadata.entry_hash",
+                "metadata.entry_id",
+                "metadata.entry_name",
+                "metadata.entry_references",
+                "metadata.entry_references.source_name",
+                "metadata.entry_references.source_path",
+                "metadata.entry_references.source_quantity",
+                "metadata.entry_references.target_entry_id",
+                "metadata.entry_references.target_name",
+                "metadata.entry_references.target_path",
+                "metadata.entry_references.target_reference",
+                "metadata.entry_timestamp",
+                "metadata.entry_timestamp.timestamp",
+                "metadata.entry_timestamp.token",
+                "metadata.entry_timestamp.token_seed",
+                "metadata.entry_timestamp.tsa_server",
+                "metadata.entry_type",
+                "metadata.files",
+                "metadata.last_processing_time",
+                "metadata.license",
+                "metadata.main_author",
+                "metadata.mainfile",
+                "metadata.nomad_commit",
+                "metadata.nomad_version",
+                "metadata.parser_name",
+                "metadata.processed",
+                "metadata.processing_errors",
+                "metadata.published",
+                "metadata.quantities",
+                "metadata.references",
+                "metadata.reviewers",
+                "metadata.section_defs",
+                "metadata.section_defs.definition_id",
+                "metadata.section_defs.definition_qualified_name",
+                "metadata.section_defs.used_directly",
+                "metadata.sections",
+                "metadata.upload_create_time",
+                "metadata.upload_id",
+                "metadata.with_embargo",
+                "results",
+                "results.properties",
+                "results.properties.available_properties"
+              ],
+              "datasets": [],
+              "n_quantities": 49,
+              "nomad_version": "1.1.9.dev99+gdb2312624.d20230330",
+              "upload_create_time": "2023-04-11T15:08:36.928000+00:00",
+              "nomad_commit": "",
+              "section_defs": [
+                {
+                  "used_directly": true,
+                  "definition_id": "7047cbff9980abff17cce4b1b6b0d1c783505b7f",
+                  "definition_qualified_name": "nomad.datamodel.data.ArchiveSection"
+                },
+                {
+                  "used_directly": true,
+                  "definition_id": "4b9c2c1cc58f12cd74da03b51ab7d701a14dbca7",
+                  "definition_qualified_name": "nomad.datamodel.datamodel.EntryArchive"
+                },
+                {
+                  "used_directly": true,
+                  "definition_id": "4e94041db1cb8b110c348717f6ec50a56054df65",
+                  "definition_qualified_name": "nomad.datamodel.datamodel.EntryArchiveReference"
+                },
+                {
+                  "used_directly": true,
+                  "definition_id": "c1433047212d95b5607397e0b759bb1508abb19b",
+                  "definition_qualified_name": "nomad.datamodel.datamodel.EntryMetadata"
+                },
+                {
+                  "used_directly": true,
+                  "definition_id": "265ae33dbc9ace82b50260c1050d30c59ef9cb3c",
+                  "definition_qualified_name": "nomad.datamodel.datamodel.RFC3161Timestamp"
+                },
+                {
+                  "used_directly": true,
+                  "definition_id": "bd968238cc0b1918b9dcf488effbd69cb2a35fcc",
+                  "definition_qualified_name": "nomad.datamodel.results.Properties"
+                },
+                {
+                  "used_directly": true,
+                  "definition_id": "3d33457b156dd998c30d07a4f4429b1836ad0ea4",
+                  "definition_qualified_name": "nomad.datamodel.results.Results"
+                },
+                {
+                  "used_directly": true,
+                  "definition_id": "f6617f133366ffb8cd1bde4bf643ca5bae1db7f8",
+                  "definition_qualified_name": "nomad.metainfo.metainfo.Definition"
+                },
+                {
+                  "used_directly": true,
+                  "definition_id": "4b3a70a5e3f97b976da7ec3ed8c7c73f2078a518",
+                  "definition_qualified_name": "nomad.metainfo.metainfo.Package"
+                },
+                {
+                  "used_directly": true,
+                  "definition_id": "28f841a88474d266eded1141318ea4c42d3aff3f",
+                  "definition_qualified_name": "nomad.metainfo.metainfo.Property"
+                },
+                {
+                  "used_directly": true,
+                  "definition_id": "d12b9e6f4aed521dc6feeb67239a929542f78b8d",
+                  "definition_qualified_name": "nomad.metainfo.metainfo.Quantity"
+                },
+                {
+                  "used_directly": true,
+                  "definition_id": "af7788dea6a320c2bec44814d49fb334cae97efa",
+                  "definition_qualified_name": "nomad.metainfo.metainfo.Section"
+                }
+              ],
+              "processing_errors": [],
+              "results": {
+                "properties": {
+                  "available_properties": []
+                }
+              },
+              "entry_name": "Set your name here",
+              "last_processing_time": "2023-04-11T15:08:37.325000+00:00",
+              "parser_name": "parsers/archive",
+              "calc_id": "SFewp4XgAR_YJAZv078a1VcWU9o3",
+              "published": false,
+              "writers": [
+                {
+                  "user_id": "68878af7-6845-46c0-b2c1-250d4d8eb470",
+                  "name": "Markus Scheidgen"
+                },
+                {
+                  "user_id": "a03af8b6-3aa7-428a-b3b1-4a6317e576b6",
+                  "name": "Sheldon Cooper"
+                }
+              ],
+              "sections": [
+                "nomad.datamodel.datamodel.EntryArchive",
+                "nomad.datamodel.datamodel.EntryArchiveReference",
+                "nomad.datamodel.datamodel.EntryMetadata",
+                "nomad.datamodel.datamodel.RFC3161Timestamp",
+                "nomad.datamodel.results.Properties",
+                "nomad.datamodel.results.Results",
+                "nomad.metainfo.metainfo.Package",
+                "nomad.metainfo.metainfo.Quantity",
+                "nomad.metainfo.metainfo.Section"
+              ],
+              "processed": true,
+              "mainfile": "baseOnAContents.schema.archive.yaml",
+              "main_author": {
+                "user_id": "68878af7-6845-46c0-b2c1-250d4d8eb470",
+                "name": "Markus Scheidgen"
+              },
+              "viewers": [
+                {
+                  "user_id": "68878af7-6845-46c0-b2c1-250d4d8eb470",
+                  "name": "Markus Scheidgen"
+                },
+                {
+                  "user_id": "a03af8b6-3aa7-428a-b3b1-4a6317e576b6",
+                  "name": "Sheldon Cooper"
+                },
+                {
+                  "user_id": "54cb1f64-f84e-4815-9ade-440ce0b5430f",
+                  "name": "Test Tester"
+                }
+              ],
+              "entry_create_time": "2023-04-11T15:08:36.954000+00:00",
+              "with_embargo": false,
+              "files": [
+                "baseOnAContents.schema.archive.yaml",
+                "baseOnSubstance.schema.archive.yaml",
+                "baseOnSubstanceExtended.schema.archive.yaml"
+              ],
+              "entry_references": [
+                {
+                  "target_entry_id": "RYcY1pQC7GkErLJaMQHaNhAxW_oN",
+                  "target_name": "AContents",
+                  "target_reference": "../upload/references_upload_id1/archive/RYcY1pQC7GkErLJaMQHaNhAxW_oN#AContents",
+                  "source_path": "definitions.section_definitions.base_sections",
+                  "target_path": "/AContents",
+                  "source_name": "base_sections",
+                  "source_quantity": "nomad.metainfo.metainfo.Section.base_sections"
+                }
+              ],
+              "entry_type": "Schema",
+              "entry_id": "SFewp4XgAR_YJAZv078a1VcWU9o3",
+              "authors": [
+                {
+                  "user_id": "68878af7-6845-46c0-b2c1-250d4d8eb470",
+                  "name": "Markus Scheidgen"
+                },
+                {
+                  "user_id": "a03af8b6-3aa7-428a-b3b1-4a6317e576b6",
+                  "name": "Sheldon Cooper"
+                }
+              ],
+              "license": "CC BY 4.0"
+            },
+            {
+              "upload_id": "references_upload_id2",
+              "references": [],
+              "origin": "Markus Scheidgen",
+              "quantities": [
+                "",
+                "definitions",
+                "definitions.more",
+                "definitions.name",
+                "definitions.section_definitions",
+                "definitions.section_definitions.base_sections",
+                "definitions.section_definitions.more",
+                "definitions.section_definitions.name",
+                "definitions.section_definitions.quantities",
+                "definitions.section_definitions.quantities.more",
+                "definitions.section_definitions.quantities.name",
+                "definitions.section_definitions.quantities.type",
+                "metadata",
+                "metadata.coauthors",
+                "metadata.datasets",
+                "metadata.embargo_length",
+                "metadata.entry_coauthors",
+                "metadata.entry_create_time",
+                "metadata.entry_hash",
+                "metadata.entry_id",
+                "metadata.entry_name",
+                "metadata.entry_references",
+                "metadata.entry_references.source_name",
+                "metadata.entry_references.source_path",
+                "metadata.entry_references.source_quantity",
+                "metadata.entry_references.target_entry_id",
+                "metadata.entry_references.target_name",
+                "metadata.entry_references.target_path",
+                "metadata.entry_references.target_reference",
+                "metadata.entry_timestamp",
+                "metadata.entry_timestamp.timestamp",
+                "metadata.entry_timestamp.token",
+                "metadata.entry_timestamp.token_seed",
+                "metadata.entry_timestamp.tsa_server",
+                "metadata.entry_type",
+                "metadata.files",
+                "metadata.last_processing_time",
+                "metadata.license",
+                "metadata.main_author",
+                "metadata.mainfile",
+                "metadata.nomad_commit",
+                "metadata.nomad_version",
+                "metadata.parser_name",
+                "metadata.processed",
+                "metadata.processing_errors",
+                "metadata.published",
+                "metadata.quantities",
+                "metadata.references",
+                "metadata.reviewers",
+                "metadata.section_defs",
+                "metadata.section_defs.definition_id",
+                "metadata.section_defs.definition_qualified_name",
+                "metadata.section_defs.used_directly",
+                "metadata.sections",
+                "metadata.upload_create_time",
+                "metadata.upload_id",
+                "metadata.with_embargo",
+                "results",
+                "results.properties",
+                "results.properties.available_properties"
+              ],
+              "datasets": [],
+              "n_quantities": 49,
+              "nomad_version": "1.1.9.dev99+gdb2312624.d20230330",
+              "upload_create_time": "2023-04-11T15:08:36.928000+00:00",
+              "nomad_commit": "",
+              "section_defs": [
+                {
+                  "used_directly": true,
+                  "definition_id": "7047cbff9980abff17cce4b1b6b0d1c783505b7f",
+                  "definition_qualified_name": "nomad.datamodel.data.ArchiveSection"
+                },
+                {
+                  "used_directly": true,
+                  "definition_id": "4b9c2c1cc58f12cd74da03b51ab7d701a14dbca7",
+                  "definition_qualified_name": "nomad.datamodel.datamodel.EntryArchive"
+                },
+                {
+                  "used_directly": true,
+                  "definition_id": "4e94041db1cb8b110c348717f6ec50a56054df65",
+                  "definition_qualified_name": "nomad.datamodel.datamodel.EntryArchiveReference"
+                },
+                {
+                  "used_directly": true,
+                  "definition_id": "c1433047212d95b5607397e0b759bb1508abb19b",
+                  "definition_qualified_name": "nomad.datamodel.datamodel.EntryMetadata"
+                },
+                {
+                  "used_directly": true,
+                  "definition_id": "265ae33dbc9ace82b50260c1050d30c59ef9cb3c",
+                  "definition_qualified_name": "nomad.datamodel.datamodel.RFC3161Timestamp"
+                },
+                {
+                  "used_directly": true,
+                  "definition_id": "bd968238cc0b1918b9dcf488effbd69cb2a35fcc",
+                  "definition_qualified_name": "nomad.datamodel.results.Properties"
+                },
+                {
+                  "used_directly": true,
+                  "definition_id": "3d33457b156dd998c30d07a4f4429b1836ad0ea4",
+                  "definition_qualified_name": "nomad.datamodel.results.Results"
+                },
+                {
+                  "used_directly": true,
+                  "definition_id": "f6617f133366ffb8cd1bde4bf643ca5bae1db7f8",
+                  "definition_qualified_name": "nomad.metainfo.metainfo.Definition"
+                },
+                {
+                  "used_directly": true,
+                  "definition_id": "4b3a70a5e3f97b976da7ec3ed8c7c73f2078a518",
+                  "definition_qualified_name": "nomad.metainfo.metainfo.Package"
+                },
+                {
+                  "used_directly": true,
+                  "definition_id": "28f841a88474d266eded1141318ea4c42d3aff3f",
+                  "definition_qualified_name": "nomad.metainfo.metainfo.Property"
+                },
+                {
+                  "used_directly": true,
+                  "definition_id": "d12b9e6f4aed521dc6feeb67239a929542f78b8d",
+                  "definition_qualified_name": "nomad.metainfo.metainfo.Quantity"
+                },
+                {
+                  "used_directly": true,
+                  "definition_id": "af7788dea6a320c2bec44814d49fb334cae97efa",
+                  "definition_qualified_name": "nomad.metainfo.metainfo.Section"
+                }
+              ],
+              "processing_errors": [],
+              "results": {
+                "properties": {
+                  "available_properties": []
+                }
+              },
+              "entry_name": "Set your name here",
+              "last_processing_time": "2023-04-11T15:08:37.644000+00:00",
+              "parser_name": "parsers/archive",
+              "calc_id": "WAT1x19Jvf4_wAYwD-6pcC6khYsu",
+              "published": false,
+              "writers": [
+                {
+                  "user_id": "68878af7-6845-46c0-b2c1-250d4d8eb470",
+                  "name": "Markus Scheidgen"
+                },
+                {
+                  "user_id": "a03af8b6-3aa7-428a-b3b1-4a6317e576b6",
+                  "name": "Sheldon Cooper"
+                }
+              ],
+              "sections": [
+                "nomad.datamodel.datamodel.EntryArchive",
+                "nomad.datamodel.datamodel.EntryArchiveReference",
+                "nomad.datamodel.datamodel.EntryMetadata",
+                "nomad.datamodel.datamodel.RFC3161Timestamp",
+                "nomad.datamodel.results.Properties",
+                "nomad.datamodel.results.Results",
+                "nomad.metainfo.metainfo.Package",
+                "nomad.metainfo.metainfo.Quantity",
+                "nomad.metainfo.metainfo.Section"
+              ],
+              "processed": true,
+              "mainfile": "baseOnSubstance.schema.archive.yaml",
+              "main_author": {
+                "user_id": "68878af7-6845-46c0-b2c1-250d4d8eb470",
+                "name": "Markus Scheidgen"
+              },
+              "viewers": [
+                {
+                  "user_id": "68878af7-6845-46c0-b2c1-250d4d8eb470",
+                  "name": "Markus Scheidgen"
+                },
+                {
+                  "user_id": "a03af8b6-3aa7-428a-b3b1-4a6317e576b6",
+                  "name": "Sheldon Cooper"
+                },
+                {
+                  "user_id": "54cb1f64-f84e-4815-9ade-440ce0b5430f",
+                  "name": "Test Tester"
+                }
+              ],
+              "entry_create_time": "2023-04-11T15:08:36.974000+00:00",
+              "with_embargo": false,
+              "files": [
+                "baseOnSubstance.schema.archive.yaml",
+                "baseOnAContents.schema.archive.yaml",
+                "baseOnSubstanceExtended.schema.archive.yaml"
+              ],
+              "entry_references": [
+                {
+                  "target_entry_id": "RYcY1pQC7GkErLJaMQHaNhAxW_oN",
+                  "target_name": "Substance",
+                  "target_reference": "../upload/references_upload_id1/archive/RYcY1pQC7GkErLJaMQHaNhAxW_oN#Substance",
+                  "source_path": "definitions.section_definitions.base_sections",
+                  "target_path": "/Substance",
+                  "source_name": "base_sections",
+                  "source_quantity": "nomad.metainfo.metainfo.Section.base_sections"
+                }
+              ],
+              "entry_type": "Schema",
+              "entry_id": "WAT1x19Jvf4_wAYwD-6pcC6khYsu",
+              "authors": [
+                {
+                  "user_id": "68878af7-6845-46c0-b2c1-250d4d8eb470",
+                  "name": "Markus Scheidgen"
+                },
+                {
+                  "user_id": "a03af8b6-3aa7-428a-b3b1-4a6317e576b6",
+                  "name": "Sheldon Cooper"
+                }
+              ],
+              "license": "CC BY 4.0"
+            },
+            {
+              "upload_id": "references_upload_id2",
+              "references": [],
+              "origin": "Markus Scheidgen",
+              "quantities": [
+                "",
+                "definitions",
+                "definitions.more",
+                "definitions.name",
+                "definitions.section_definitions",
+                "definitions.section_definitions.base_sections",
+                "definitions.section_definitions.more",
+                "definitions.section_definitions.name",
+                "definitions.section_definitions.quantities",
+                "definitions.section_definitions.quantities.more",
+                "definitions.section_definitions.quantities.name",
+                "definitions.section_definitions.quantities.type",
+                "metadata",
+                "metadata.coauthors",
+                "metadata.datasets",
+                "metadata.embargo_length",
+                "metadata.entry_coauthors",
+                "metadata.entry_create_time",
+                "metadata.entry_hash",
+                "metadata.entry_id",
+                "metadata.entry_name",
+                "metadata.entry_references",
+                "metadata.entry_references.source_name",
+                "metadata.entry_references.source_path",
+                "metadata.entry_references.source_quantity",
+                "metadata.entry_references.target_entry_id",
+                "metadata.entry_references.target_name",
+                "metadata.entry_references.target_path",
+                "metadata.entry_references.target_reference",
+                "metadata.entry_timestamp",
+                "metadata.entry_timestamp.timestamp",
+                "metadata.entry_timestamp.token",
+                "metadata.entry_timestamp.token_seed",
+                "metadata.entry_timestamp.tsa_server",
+                "metadata.entry_type",
+                "metadata.files",
+                "metadata.last_processing_time",
+                "metadata.license",
+                "metadata.main_author",
+                "metadata.mainfile",
+                "metadata.nomad_commit",
+                "metadata.nomad_version",
+                "metadata.parser_name",
+                "metadata.processed",
+                "metadata.processing_errors",
+                "metadata.published",
+                "metadata.quantities",
+                "metadata.references",
+                "metadata.reviewers",
+                "metadata.section_defs",
+                "metadata.section_defs.definition_id",
+                "metadata.section_defs.definition_qualified_name",
+                "metadata.section_defs.used_directly",
+                "metadata.sections",
+                "metadata.upload_create_time",
+                "metadata.upload_id",
+                "metadata.with_embargo",
+                "results",
+                "results.properties",
+                "results.properties.available_properties"
+              ],
+              "datasets": [],
+              "n_quantities": 49,
+              "nomad_version": "1.1.9.dev99+gdb2312624.d20230330",
+              "upload_create_time": "2023-04-11T15:08:36.928000+00:00",
+              "nomad_commit": "",
+              "section_defs": [
+                {
+                  "used_directly": true,
+                  "definition_id": "7047cbff9980abff17cce4b1b6b0d1c783505b7f",
+                  "definition_qualified_name": "nomad.datamodel.data.ArchiveSection"
+                },
+                {
+                  "used_directly": true,
+                  "definition_id": "4b9c2c1cc58f12cd74da03b51ab7d701a14dbca7",
+                  "definition_qualified_name": "nomad.datamodel.datamodel.EntryArchive"
+                },
+                {
+                  "used_directly": true,
+                  "definition_id": "4e94041db1cb8b110c348717f6ec50a56054df65",
+                  "definition_qualified_name": "nomad.datamodel.datamodel.EntryArchiveReference"
+                },
+                {
+                  "used_directly": true,
+                  "definition_id": "c1433047212d95b5607397e0b759bb1508abb19b",
+                  "definition_qualified_name": "nomad.datamodel.datamodel.EntryMetadata"
+                },
+                {
+                  "used_directly": true,
+                  "definition_id": "265ae33dbc9ace82b50260c1050d30c59ef9cb3c",
+                  "definition_qualified_name": "nomad.datamodel.datamodel.RFC3161Timestamp"
+                },
+                {
+                  "used_directly": true,
+                  "definition_id": "bd968238cc0b1918b9dcf488effbd69cb2a35fcc",
+                  "definition_qualified_name": "nomad.datamodel.results.Properties"
+                },
+                {
+                  "used_directly": true,
+                  "definition_id": "3d33457b156dd998c30d07a4f4429b1836ad0ea4",
+                  "definition_qualified_name": "nomad.datamodel.results.Results"
+                },
+                {
+                  "used_directly": true,
+                  "definition_id": "f6617f133366ffb8cd1bde4bf643ca5bae1db7f8",
+                  "definition_qualified_name": "nomad.metainfo.metainfo.Definition"
+                },
+                {
+                  "used_directly": true,
+                  "definition_id": "4b3a70a5e3f97b976da7ec3ed8c7c73f2078a518",
+                  "definition_qualified_name": "nomad.metainfo.metainfo.Package"
+                },
+                {
+                  "used_directly": true,
+                  "definition_id": "28f841a88474d266eded1141318ea4c42d3aff3f",
+                  "definition_qualified_name": "nomad.metainfo.metainfo.Property"
+                },
+                {
+                  "used_directly": true,
+                  "definition_id": "d12b9e6f4aed521dc6feeb67239a929542f78b8d",
+                  "definition_qualified_name": "nomad.metainfo.metainfo.Quantity"
+                },
+                {
+                  "used_directly": true,
+                  "definition_id": "af7788dea6a320c2bec44814d49fb334cae97efa",
+                  "definition_qualified_name": "nomad.metainfo.metainfo.Section"
+                }
+              ],
+              "processing_errors": [],
+              "results": {
+                "properties": {
+                  "available_properties": []
+                }
+              },
+              "entry_name": "Set your name here",
+              "last_processing_time": "2023-04-11T15:08:37.660000+00:00",
+              "parser_name": "parsers/archive",
+              "calc_id": "zExpq70TT-0IcJrWHRQvxryx89tC",
+              "published": false,
+              "writers": [
+                {
+                  "user_id": "68878af7-6845-46c0-b2c1-250d4d8eb470",
+                  "name": "Markus Scheidgen"
+                },
+                {
+                  "user_id": "a03af8b6-3aa7-428a-b3b1-4a6317e576b6",
+                  "name": "Sheldon Cooper"
+                }
+              ],
+              "sections": [
+                "nomad.datamodel.datamodel.EntryArchive",
+                "nomad.datamodel.datamodel.EntryArchiveReference",
+                "nomad.datamodel.datamodel.EntryMetadata",
+                "nomad.datamodel.datamodel.RFC3161Timestamp",
+                "nomad.datamodel.results.Properties",
+                "nomad.datamodel.results.Results",
+                "nomad.metainfo.metainfo.Package",
+                "nomad.metainfo.metainfo.Quantity",
+                "nomad.metainfo.metainfo.Section"
+              ],
+              "processed": true,
+              "mainfile": "baseOnSubstanceExtended.schema.archive.yaml",
+              "main_author": {
+                "user_id": "68878af7-6845-46c0-b2c1-250d4d8eb470",
+                "name": "Markus Scheidgen"
+              },
+              "viewers": [
+                {
+                  "user_id": "68878af7-6845-46c0-b2c1-250d4d8eb470",
+                  "name": "Markus Scheidgen"
+                },
+                {
+                  "user_id": "a03af8b6-3aa7-428a-b3b1-4a6317e576b6",
+                  "name": "Sheldon Cooper"
+                },
+                {
+                  "user_id": "54cb1f64-f84e-4815-9ade-440ce0b5430f",
+                  "name": "Test Tester"
+                }
+              ],
+              "entry_create_time": "2023-04-11T15:08:36.992000+00:00",
+              "with_embargo": false,
+              "files": [
+                "baseOnSubstanceExtended.schema.archive.yaml",
+                "baseOnAContents.schema.archive.yaml",
+                "baseOnSubstance.schema.archive.yaml"
+              ],
+              "entry_references": [
+                {
+                  "target_entry_id": "-ld_4ohLePE2oOcfX_CYa9oiu_1l",
+                  "target_name": "SubstanceExtended",
+                  "target_reference": "../upload/references_upload_id1/archive/-ld_4ohLePE2oOcfX_CYa9oiu_1l#SubstanceExtended",
+                  "source_path": "definitions.section_definitions.base_sections",
+                  "target_path": "/SubstanceExtended",
+                  "source_name": "base_sections",
+                  "source_quantity": "nomad.metainfo.metainfo.Section.base_sections"
+                }
+              ],
+              "entry_type": "Schema",
+              "entry_id": "zExpq70TT-0IcJrWHRQvxryx89tC",
+              "authors": [
+                {
+                  "user_id": "68878af7-6845-46c0-b2c1-250d4d8eb470",
+                  "name": "Markus Scheidgen"
+                },
+                {
+                  "user_id": "a03af8b6-3aa7-428a-b3b1-4a6317e576b6",
+                  "name": "Sheldon Cooper"
+                }
+              ],
+              "license": "CC BY 4.0"
+            }
+          ]
+        },
+        "headers": {
+          "connection": "close",
+          "content-length": "40140",
+          "content-type": "application/json",
+          "server": "uvicorn"
+        }
+      }
+    }
+  ]
+}
